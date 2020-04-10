@@ -581,7 +581,7 @@ class Main:
 		args= parser.parse_args()
 
 		if args.company == None:
-			args.company = raw_input('Enter company domain e.g., facebook.com\n')
+			args.company = raw_input('Enter company domain e.g., test.com\n')
 			args.dns = True
 
 		return args

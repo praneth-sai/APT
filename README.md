@@ -1,4 +1,4 @@
-![apt-logo](APT/resources/Logo.png?raw=true "Apt-logo")
+![apt-logo](APT/resources/Logo.png?raw=true "APT-logo")
 
 # Summary
 This application automates most of the penetration testing tasks using the command line. It automates information gathering of DNS, e-mails, WHOIS, files, social media (Using Google Dorking), scans for live hosts, port scanning, vulnerability assessment as per OWASP standards, brute-force attacks, and scans for Website security as well.

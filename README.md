@@ -6,7 +6,7 @@ This application automates most of the penetration testing tasks using the comma
 This application can be used only on "Kali Linux", it will not work on other Linux versions unless you install all the required tools manually.
 
 # How it works
-APT uses Python to create an automated framework to use industry standard tools (such as preinstalled kali tools, OWASP ZAP and Nmap etc) to perform repeatable, well-designed procedures with anticipated results to create an easily understandable report listing vulnerabilities detected within the web application.
+APT uses Python to create an automated framework to use industry standard tools (such as preinstalled kali tools, OWASP ZAP, Nmap etc) to perform repeatable, well-designed procedures and creates an easily understandable report, listing vulnerabilities detected within the web application.
 
 ## Information Gathering
   ```DNS

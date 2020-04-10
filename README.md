@@ -81,11 +81,11 @@ APT uses Python to create an automated framework to use industry standard tools 
   $python apt.py --company [YourClientDomainName] --url [WebServerUrl] -webvulns
   ```
 
- ```SQLMap
+  ```SQLMap
   To perform SQLMAP:
   $python apt.py --company [YourClientDomainName] --url [WebServerUrl] -sql
   ```
- ```OWASP Scanner using ADAPT
+  ```OWASP Scanner using ADAPT
   Scan the whole web-application as per OWASP standards:
   $python apt.py --company [YourClientDomainName] -owasp
   ```

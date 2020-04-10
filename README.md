@@ -99,4 +99,4 @@ This application uses Open Source components. You can find the source code of th
   Project: Kali Linux https://www.kali.org/
   © OffSec Services Limited 2020 All rights reserved
 
-### Author will not be held responsible for any illegal use of the tool. The tool should solely be used for educational purposes. 
+###### Author will not be held responsible for any illegal use of the tool. The tool should solely be used for educational purposes. 

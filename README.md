@@ -39,7 +39,7 @@ APT uses Python to create an automated framework to use industry standard tools 
   $python apt.py --company [YourClientDomainName] -websearch
   ```
   
-## Scanning
+## Network Scanning
    ```LiveHosts
   To scan for live hosts:
   $python apt.py --company [YourClientDomainName] -ip [NetworkIPAddress/Range] -livehosts

@@ -1,10 +1,12 @@
-# Automating Penetration Tool
+# Automatated Penetration Testing
 
-## Description
-This application automates most of the penetration testing tasks using the command line. It automates information gathering of DNS, Emails, WHOIS, Files, social media (Using Google Dorking), Scans for live hosts, Port scanning, Vulnerability assessment as per OWASP standard, Brute-force attack, Scans for Web site security as well.
+# Summary
+This application automates most of the penetration testing tasks using the command line. It automates information gathering of DNS, e-mails, WHOIS, files, social media (Using Google Dorking), scans for live hosts, port scanning, vulnerability assessment as per OWASP standards, brute-force attacks, and scans for Website security as well.
 
 This application can be used only on "Kali Linux", it will not work on other Linux versions unless you install all the required tools manually.
 
+# How it works
+APT uses Python to create an automated framework to use industry standard tools (such as preinstalled kali tools, OWASP ZAP and Nmap etc) to perform repeatable, well-designed procedures with anticipated results to create an easily understandable report listing vulnerabilities detected within the web application.
 
 ## Information Gathering
   ```DNS
@@ -87,3 +89,14 @@ This application can be used only on "Kali Linux", it will not work on other Lin
   Scan the whole web-application as per OWASP standards:
   $python apt.py --company [YourClientDomainName] -owasp
   ```
+
+# Credits
+This application uses Open Source components. You can find the source code of their open source projects along with license information below. We acknowledge and are grateful to these developers for their contributions to open source.
+  
+  Project: Adapt https://github.com/secdec/adapt
+  Licensed under the Apache-2.0 License.
+  
+  Project: Kali Linux https://www.kali.org/
+  © OffSec Services Limited 2020 All rights reserved
+
+# Author will not be held responsible for any illegal use of the tool. The tool should solely be used for educational purposes. 

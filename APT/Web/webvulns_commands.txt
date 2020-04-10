@@ -1,0 +1,3 @@
+Skipfish Scan:skipfish -o ./[Location]/skipfish [url]
+Nikto Scan:nikto -host [url] -Cgidirs all -Display 4
+XSS Sniper:python ./xsssniper/xsssniper.py -u [url] --crawl --forms --dom

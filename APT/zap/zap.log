@@ -1,0 +1,1446 @@
+2019-12-11 00:24:53,739 [main ] INFO  Constant - Copying defaults from /opt/ZAP_2.7.0/./xml/config.xml to /root/Documents/pat-master/PAT/zap/config.xml
+2019-12-11 00:24:53,777 [main ] INFO  Constant - Creating directory /root/Documents/pat-master/PAT/zap/session
+2019-12-11 00:24:53,778 [main ] INFO  Constant - Creating directory /root/Documents/pat-master/PAT/zap/dirbuster
+2019-12-11 00:24:53,778 [main ] INFO  Constant - Creating directory /root/Documents/pat-master/PAT/zap/fuzzers
+2019-12-11 00:24:53,778 [main ] INFO  Constant - Creating directory /root/Documents/pat-master/PAT/zap/plugin
+2019-12-11 00:24:53,778 [main ] INFO  Constant - Creating directory: /root/Documents/pat-master/PAT/zap/filter
+2019-12-11 00:24:56,963 [main ] INFO  Constant - Backing up config file to /root/Documents/pat-master/PAT/zap/config.xml.bak
+2019-12-11 00:24:56,984 [main ] INFO  Constant - Upgraded from 1004000
+2019-12-11 00:24:59,323 [main ] INFO  GuiBootstrap - OWASP ZAP 2.7.0 started 11/12/2019, 00:24:59 with home /root/Documents/pat-master/PAT/zap/
+2019-12-11 00:25:22,590 [AWT-EventQueue-0] INFO  AbstractParam - Setting config dirs = /root/Documents/pat-master/PAT/zap/scripts was null
+2019-12-11 00:25:22,593 [AWT-EventQueue-0] INFO  AbstractParam - Setting config start.checkForUpdates = false was true
+2019-12-11 00:25:22,593 [AWT-EventQueue-0] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was null
+2019-12-11 00:25:22,593 [AWT-EventQueue-0] INFO  AbstractParam - Setting config newsessionprompt = false was null
+2019-12-11 00:25:22,594 [AWT-EventQueue-0] INFO  AbstractParam - Setting config api.key = ROPgN3ZCIMf6PnPCpaHX was null
+2019-12-11 00:25:22,611 [AWT-EventQueue-0] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2019-12-11 00:25:22,611 [AWT-EventQueue-0] INFO  SSLConnector - Using a SSLEngine...
+2019-12-11 00:25:23,743 [AWT-EventQueue-0] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2019-12-11 00:25:23,804 [AWT-EventQueue-0] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2019-12-11 00:25:26,131 [AWT-EventQueue-0] INFO  ENGINE - open start - state not modified
+2019-12-11 00:25:27,095 [AWT-EventQueue-0] INFO  ENGINE - dataFileCache open start
+2019-12-11 00:25:27,150 [AWT-EventQueue-0] INFO  ENGINE - dataFileCache open end
+2019-12-11 00:25:27,673 [AWT-EventQueue-0] INFO  View - Initialising View
+2019-12-11 00:25:39,888 [ZAP-BootstrapGUI] INFO  ExtensionFactory - Loading extensions
+2019-12-11 00:25:52,947 [ZAP-BootstrapGUI] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2019-12-11 00:25:56,730 [ZAP-BootstrapGUI] INFO  ExtensionFactory - Extensions loaded
+2019-12-11 00:25:57,827 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2019-12-11 00:25:57,829 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2019-12-11 00:25:57,830 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2019-12-11 00:25:57,832 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2019-12-11 00:25:57,833 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2019-12-11 00:25:57,833 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2019-12-11 00:25:57,834 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2019-12-11 00:25:57,834 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2019-12-11 00:25:57,834 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2019-12-11 00:25:57,834 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2019-12-11 00:25:57,834 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2019-12-11 00:25:57,834 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2019-12-11 00:25:57,834 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2019-12-11 00:26:01,488 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows ZAP to check for updates
+2019-12-11 00:26:01,757 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Options Extension
+2019-12-11 00:26:05,588 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Edit Menu Extension
+2019-12-11 00:26:05,593 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Filter Extension
+2019-12-11 00:26:05,597 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Provides a rest based API for controlling and accessing ZAP
+2019-12-11 00:26:06,502 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Session State Extension
+2019-12-11 00:26:06,509 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Report Extension
+2019-12-11 00:26:06,549 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing History Extension
+2019-12-11 00:26:07,603 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Show hidden fields and enable disabled fields
+2019-12-11 00:26:07,625 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Search messages for strings and regular expressions
+2019-12-11 00:26:08,060 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Encode/Decode/Hash...
+2019-12-11 00:26:08,077 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows you to intercept and modify requests and responses
+2019-12-11 00:26:08,567 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Passive scanner
+2019-12-11 00:26:08,773 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Script Passive Scan Rules
+2019-12-11 00:26:08,777 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Stats Passive Scan Rule
+2019-12-11 00:26:08,783 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Application Error Disclosure
+2019-12-11 00:26:08,789 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+2019-12-11 00:26:08,792 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type Header Missing
+2019-12-11 00:26:08,796 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie No HttpOnly Flag
+2019-12-11 00:26:08,801 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie Without Secure Flag
+2019-12-11 00:26:08,806 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+2019-12-11 00:26:08,813 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Web Browser XSS Protection Not Enabled
+2019-12-11 00:26:08,816 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Secure Pages Include Mixed Content
+2019-12-11 00:26:08,825 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in Browser
+2019-12-11 00:26:08,828 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP Disclosure
+2019-12-11 00:26:08,834 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: Session ID in URL Rewrite
+2019-12-11 00:26:08,839 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options Header Missing
+2019-12-11 00:26:08,845 [ZAP-BootstrapGUI] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options Header Scanner
+2019-12-11 00:26:08,960 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows you to view and manage alerts
+2019-12-11 00:26:09,481 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Active scanner, heavily based on the original Paros active scanner, but with additional tests added
+2019-12-11 00:26:10,074 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Spider used for automatically finding URIs on a site
+2019-12-11 00:26:10,632 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing A set of common popup menus for miscellaneous tasks
+2019-12-11 00:26:10,658 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Forced browsing of files and directories using code from the OWASP DirBuster tool
+2019-12-11 00:26:11,125 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Manual Request Editor Extension
+2019-12-11 00:26:11,130 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Compares 2 sessions and generates an HTML file showing the differences
+2019-12-11 00:26:11,134 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Invoke external applications passing context related information such as URLs and parameters
+2019-12-11 00:26:11,206 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Handles anti cross site request forgery (CSRF) tokens
+2019-12-11 00:26:11,240 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Authentication Extension
+2019-12-11 00:26:11,268 [ZAP-BootstrapGUI] INFO  ExtensionAuthentication - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2019-12-11 00:26:11,270 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Creates a dynamic SSL certificate to allow SSL communications to be intercepted without warnings being generated by the browser
+2019-12-11 00:26:11,281 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Logs errors to the Output tab in development mode only
+2019-12-11 00:26:11,284 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Users Extension
+2019-12-11 00:26:11,292 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2019-12-11 00:26:11,520 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Script integration
+2019-12-11 00:26:11,740 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Scripting console, supports all JSR 223 scripting languages
+2019-12-11 00:26:13,050 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Forced User Extension
+2019-12-11 00:26:13,066 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Extension handling HTTP sessions
+2019-12-11 00:26:13,316 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Zest is a specialized scripting language from Mozilla specifically designed to be used in security tools
+2019-12-11 00:26:15,142 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing ExtensionDiff
+2019-12-11 00:26:15,146 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing HTTP Panel Post Table View Extension
+2019-12-11 00:26:15,191 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Session Management Extension
+2019-12-11 00:26:15,265 [ZAP-BootstrapGUI] INFO  ExtensionSessionManagement - Loaded session management method types: [Cookie-based Session Management, HTTP Authentication Session Management]
+2019-12-11 00:26:15,268 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing HTTP Panel Form Table View Extension
+2019-12-11 00:26:15,345 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Capture messages from WebSockets with the ability to set breakpoints.
+2019-12-11 00:26:16,358 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows you to import a file containing URLs which ZAP will access, adding them to the Sites tree
+2019-12-11 00:26:16,362 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Core UI related functionality.
+2019-12-11 00:26:16,364 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Authorization Extension
+2019-12-11 00:26:16,369 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing AJAX Spider, uses Crawljax
+2019-12-11 00:26:16,807 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+2019-12-11 00:26:16,930 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Manages the local proxy configurations
+2019-12-11 00:26:17,201 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Handles adding Global Excluded URLs
+2019-12-11 00:26:17,314 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Adds menu item to refresh the Sites tree
+2019-12-11 00:26:17,318 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Adds support for configurable keyboard shortcuts for all of the ZAP menus.
+2019-12-11 00:26:17,382 [ZAP-BootstrapGUI] INFO  ExtensionKeyboard - Initializing keyboard shortcuts
+2019-12-11 00:26:17,386 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing OWASP ZAP User Guide
+2019-12-11 00:26:17,434 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Provides a URL suitable for calling from target sites
+2019-12-11 00:26:17,490 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows you to configure which extensions are loaded when ZAP starts
+2019-12-11 00:26:17,576 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Combined HTTP Panels Extension
+2019-12-11 00:26:17,665 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing HTTP Panel Hex View Extension
+2019-12-11 00:26:17,813 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing HTTP Panel Image View Extension
+2019-12-11 00:26:17,822 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing HTTP Panel Large Request View Extension
+2019-12-11 00:26:17,846 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing HTTP Panel Large Response View Extension
+2019-12-11 00:26:17,863 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing HTTP Panel Query Table View Extension
+2019-12-11 00:26:17,941 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing HTTP Panel Syntax Highlighter View Extension
+2019-12-11 00:26:18,341 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Active and passive rule configuration
+2019-12-11 00:26:18,359 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Statistics
+2019-12-11 00:26:18,386 [ZAP-BootstrapGUI] INFO  ExtensionStats - Start recording in memory stats
+2019-12-11 00:26:18,391 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Active Scan Rules
+2019-12-11 00:26:18,395 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing ExtensionSaveRawHttpMessage
+2019-12-11 00:26:18,404 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Context alert rules filter
+2019-12-11 00:26:18,406 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing ExtensionJxBrowserLinux64
+2019-12-11 00:26:18,415 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing ExtSelJxBrowserLinux64
+2019-12-11 00:26:18,907 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Passive Scan Rules
+2019-12-11 00:26:18,909 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Translations of the core language files
+2019-12-11 00:26:18,910 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Tips and Tricks
+2019-12-11 00:26:18,912 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Provides the foundation for concrete message types (for example, HTTP, WebSockets) expose fuzzer implementations.
+2019-12-11 00:26:18,944 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows to fuzz HTTP messages.
+2019-12-11 00:26:19,272 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing ExtensionJxBrowser
+2019-12-11 00:26:19,278 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Quick Start panel 
+2019-12-11 00:26:19,528 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Launch browsers proxying through ZAP
+2019-12-11 00:26:19,569 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing The Online menu links
+2019-12-11 00:26:19,575 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows to fuzz WebSocket messages.
+2019-12-11 00:26:19,579 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Easy way to replace strings in requests and responses
+2019-12-11 00:26:19,629 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing The ZAP Getting Started Guide
+2019-12-11 00:26:21,174 [ZAP-BootstrapGUI] INFO  ExtensionCallback - Started callback server on 0.0.0.0:33097
+2019-12-11 00:26:21,343 [ZAP-BootstrapGUI] INFO  ExtensionDynSSL - Creating new root CA certificate
+2019-12-11 00:26:28,010 [ZAP-BootstrapGUI] INFO  ExtensionDynSSL - New root CA certificate created
+2019-12-11 00:26:30,546 [AWT-EventQueue-0] INFO  Control - New Session
+2019-12-11 00:26:30,620 [AWT-EventQueue-0] INFO  Control - Create and Open Untitled Db
+2019-12-11 00:26:30,741 [AWT-EventQueue-0] INFO  ENGINE - dataFileCache commit start
+2019-12-11 00:26:30,746 [AWT-EventQueue-0] INFO  ENGINE - dataFileCache commit end
+2019-12-11 00:26:30,762 [AWT-EventQueue-0] INFO  ENGINE - Database closed
+2019-12-11 00:26:31,172 [AWT-EventQueue-0] INFO  ENGINE - open start - state not modified
+2019-12-11 00:26:31,456 [AWT-EventQueue-0] INFO  ENGINE - dataFileCache open start
+2019-12-11 00:26:31,465 [AWT-EventQueue-0] INFO  ENGINE - dataFileCache open end
+2019-12-11 00:26:33,181 [Thread-6] INFO  ENGINE - dataFileCache commit start
+2019-12-11 00:26:33,226 [Thread-6] INFO  ENGINE - dataFileCache commit end
+2019-12-11 00:26:33,238 [Thread-6] INFO  ENGINE - Database closed
+2019-12-11 00:26:33,340 [Thread-6] INFO  Control - OWASP ZAP 2.7.0 terminated.
+2019-12-11 00:40:01,485 [main ] INFO  GuiBootstrap - OWASP ZAP 2.7.0 started 11/12/2019, 00:40:01 with home /root/Documents/pat-master/PAT/zap/
+2019-12-11 00:40:02,045 [AWT-EventQueue-0] INFO  AbstractParam - Setting config dirs = /root/Documents/pat-master/PAT/zap/scripts was /root/Documents/pat-master/PAT/zap/scripts
+2019-12-11 00:40:02,047 [AWT-EventQueue-0] INFO  AbstractParam - Setting config start.checkForUpdates = false was false
+2019-12-11 00:40:02,048 [AWT-EventQueue-0] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was false
+2019-12-11 00:40:02,048 [AWT-EventQueue-0] INFO  AbstractParam - Setting config newsessionprompt = false was false
+2019-12-11 00:40:02,049 [AWT-EventQueue-0] INFO  AbstractParam - Setting config api.key = DAt6vL5GntTxQUYNQw49 was ROPgN3ZCIMf6PnPCpaHX
+2019-12-11 00:40:02,058 [AWT-EventQueue-0] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2019-12-11 00:40:02,059 [AWT-EventQueue-0] INFO  SSLConnector - Using a SSLEngine...
+2019-12-11 00:40:02,345 [AWT-EventQueue-0] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2019-12-11 00:40:02,369 [AWT-EventQueue-0] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2019-12-11 00:40:03,659 [AWT-EventQueue-0] INFO  ENGINE - open start - state not modified
+2019-12-11 00:40:04,223 [AWT-EventQueue-0] INFO  ENGINE - dataFileCache open start
+2019-12-11 00:40:04,249 [AWT-EventQueue-0] INFO  ENGINE - dataFileCache open end
+2019-12-11 00:40:05,466 [AWT-EventQueue-0] INFO  View - Initialising View
+2019-12-11 00:40:09,219 [ZAP-BootstrapGUI] INFO  ExtensionFactory - Loading extensions
+2019-12-11 00:40:12,840 [ZAP-BootstrapGUI] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2019-12-11 00:40:14,177 [ZAP-BootstrapGUI] INFO  ExtensionFactory - Extensions loaded
+2019-12-11 00:40:15,417 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2019-12-11 00:40:15,418 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2019-12-11 00:40:15,418 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2019-12-11 00:40:15,419 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2019-12-11 00:40:15,419 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2019-12-11 00:40:15,419 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2019-12-11 00:40:15,419 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2019-12-11 00:40:15,420 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2019-12-11 00:40:15,420 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2019-12-11 00:40:15,420 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2019-12-11 00:40:15,426 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2019-12-11 00:40:15,426 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2019-12-11 00:40:15,426 [ZAP-BootstrapGUI] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2019-12-11 00:40:17,811 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows ZAP to check for updates
+2019-12-11 00:40:18,079 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Options Extension
+2019-12-11 00:40:19,519 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Edit Menu Extension
+2019-12-11 00:40:19,525 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Filter Extension
+2019-12-11 00:40:19,574 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Provides a rest based API for controlling and accessing ZAP
+2019-12-11 00:40:20,013 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Session State Extension
+2019-12-11 00:40:20,018 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Report Extension
+2019-12-11 00:40:20,122 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing History Extension
+2019-12-11 00:40:20,947 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Show hidden fields and enable disabled fields
+2019-12-11 00:40:20,971 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Search messages for strings and regular expressions
+2019-12-11 00:40:21,226 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Encode/Decode/Hash...
+2019-12-11 00:40:21,310 [ZAP-BootstrapGUI] INFO  ExtensionLoader - Initializing Allows you to intercept and modify requests and responses
+2019-12-11 00:41:31,651 [main ] INFO  DaemonBootstrap - OWASP ZAP 2.7.0 started 11/12/2019, 00:41:31 with home /root/Documents/pat-master/PAT/zap/
+2019-12-11 00:41:31,750 [main ] INFO  AbstractParam - Setting config dirs = /root/Documents/pat-master/PAT/zap/scripts was /root/Documents/pat-master/PAT/zap/scripts
+2019-12-11 00:41:31,766 [main ] INFO  AbstractParam - Setting config start.checkForUpdates = false was false
+2019-12-11 00:41:31,767 [main ] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was false
+2019-12-11 00:41:31,768 [main ] INFO  AbstractParam - Setting config newsessionprompt = false was false
+2019-12-11 00:41:31,768 [main ] INFO  AbstractParam - Setting config api.key = EQkPes7fDv2kPl6B27Gh was DAt6vL5GntTxQUYNQw49
+2019-12-11 00:41:31,780 [main ] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2019-12-11 00:41:31,781 [main ] INFO  SSLConnector - Using a SSLEngine...
+2019-12-11 00:41:32,090 [main ] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2019-12-11 00:41:32,111 [main ] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2019-12-11 00:41:33,541 [main ] INFO  ENGINE - open start - state not modified
+2019-12-11 00:41:34,037 [main ] INFO  ENGINE - dataFileCache open start
+2019-12-11 00:41:34,057 [main ] INFO  ENGINE - dataFileCache open end
+2019-12-11 00:41:34,301 [ZAP-daemon] INFO  ExtensionFactory - Loading extensions
+2019-12-11 00:41:37,509 [ZAP-daemon] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2019-12-11 00:41:39,846 [ZAP-daemon] INFO  ExtensionFactory - Extensions loaded
+2019-12-11 00:41:40,701 [ZAP-daemon] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2019-12-11 00:41:40,718 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2019-12-11 00:41:40,718 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2019-12-11 00:41:40,718 [ZAP-daemon] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2019-12-11 00:41:40,718 [ZAP-daemon] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2019-12-11 00:41:40,718 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2019-12-11 00:41:40,719 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2019-12-11 00:41:40,719 [ZAP-daemon] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2019-12-11 00:41:40,719 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2019-12-11 00:41:40,719 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2019-12-11 00:41:40,719 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2019-12-11 00:41:40,719 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2019-12-11 00:41:40,719 [ZAP-daemon] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2019-12-11 00:49:58,519 [main ] INFO  DaemonBootstrap - OWASP ZAP 2.7.0 started 11/12/2019, 00:49:58 with home /root/Documents/apt-master/APT/zap/
+2019-12-11 00:49:58,593 [main ] INFO  AbstractParam - Setting config dirs = /root/Documents/apt-master/APT/zap/scripts was /root/Documents/pat-master/PAT/zap/scripts
+2019-12-11 00:49:58,594 [main ] INFO  AbstractParam - Setting config start.checkForUpdates = false was false
+2019-12-11 00:49:58,595 [main ] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was false
+2019-12-11 00:49:58,595 [main ] INFO  AbstractParam - Setting config newsessionprompt = false was false
+2019-12-11 00:49:58,596 [main ] INFO  AbstractParam - Setting config api.key = 9GKAdQNnWsoIGgGvQDJm was EQkPes7fDv2kPl6B27Gh
+2019-12-11 00:49:58,604 [main ] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2019-12-11 00:49:58,604 [main ] INFO  SSLConnector - Using a SSLEngine...
+2019-12-11 00:49:58,869 [main ] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2019-12-11 00:49:58,880 [main ] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2019-12-11 00:49:59,859 [main ] INFO  ENGINE - open start - state not modified
+2019-12-11 00:50:00,360 [main ] INFO  ENGINE - dataFileCache open start
+2019-12-11 00:50:00,376 [main ] INFO  ENGINE - dataFileCache open end
+2019-12-11 00:50:00,576 [ZAP-daemon] INFO  ExtensionFactory - Loading extensions
+2019-12-11 00:50:03,239 [ZAP-daemon] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2019-12-11 00:50:05,073 [ZAP-daemon] INFO  ExtensionFactory - Extensions loaded
+2019-12-11 00:50:05,866 [ZAP-daemon] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2019-12-11 00:50:05,867 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2019-12-11 00:50:05,867 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2019-12-11 00:50:05,867 [ZAP-daemon] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2019-12-11 00:50:05,867 [ZAP-daemon] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2019-12-11 00:50:05,867 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2019-12-11 00:50:05,867 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2019-12-11 00:50:05,868 [ZAP-daemon] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2019-12-11 00:50:05,868 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2019-12-11 00:50:05,868 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2019-12-11 00:50:05,868 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2019-12-11 00:50:05,868 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2019-12-11 00:50:05,868 [ZAP-daemon] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2019-12-11 00:50:06,520 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows ZAP to check for updates
+2019-12-11 00:50:06,545 [ZAP-daemon] INFO  ExtensionLoader - Initializing Options Extension
+2019-12-11 00:50:06,546 [ZAP-daemon] INFO  ExtensionLoader - Initializing Edit Menu Extension
+2019-12-11 00:50:06,548 [ZAP-daemon] INFO  ExtensionLoader - Initializing Filter Extension
+2019-12-11 00:50:06,549 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a rest based API for controlling and accessing ZAP
+2019-12-11 00:50:06,837 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session State Extension
+2019-12-11 00:50:06,837 [ZAP-daemon] INFO  ExtensionLoader - Initializing Report Extension
+2019-12-11 00:50:06,837 [ZAP-daemon] INFO  ExtensionLoader - Initializing History Extension
+2019-12-11 00:50:06,847 [ZAP-daemon] INFO  ExtensionLoader - Initializing Show hidden fields and enable disabled fields
+2019-12-11 00:50:06,849 [ZAP-daemon] INFO  ExtensionLoader - Initializing Search messages for strings and regular expressions
+2019-12-11 00:50:06,851 [ZAP-daemon] INFO  ExtensionLoader - Initializing Encode/Decode/Hash...
+2019-12-11 00:50:06,852 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to intercept and modify requests and responses
+2019-12-11 00:50:06,855 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive scanner
+2019-12-11 00:50:07,075 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Script Passive Scan Rules
+2019-12-11 00:50:07,075 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Stats Passive Scan Rule
+2019-12-11 00:50:07,075 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Application Error Disclosure
+2019-12-11 00:50:07,075 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+2019-12-11 00:50:07,075 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type Header Missing
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie No HttpOnly Flag
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie Without Secure Flag
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Web Browser XSS Protection Not Enabled
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Secure Pages Include Mixed Content
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in Browser
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP Disclosure
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Session ID in URL Rewrite
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options Header Missing
+2019-12-11 00:50:07,076 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options Header Scanner
+2019-12-11 00:50:07,099 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to view and manage alerts
+2019-12-11 00:50:07,099 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active scanner, heavily based on the original Paros active scanner, but with additional tests added
+2019-12-11 00:50:07,112 [ZAP-daemon] INFO  ExtensionLoader - Initializing Spider used for automatically finding URIs on a site
+2019-12-11 00:50:07,123 [ZAP-daemon] INFO  ExtensionLoader - Initializing A set of common popup menus for miscellaneous tasks
+2019-12-11 00:50:07,124 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced browsing of files and directories using code from the OWASP DirBuster tool
+2019-12-11 00:50:07,125 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manual Request Editor Extension
+2019-12-11 00:50:07,125 [ZAP-daemon] INFO  ExtensionLoader - Initializing Compares 2 sessions and generates an HTML file showing the differences
+2019-12-11 00:50:07,125 [ZAP-daemon] INFO  ExtensionLoader - Initializing Invoke external applications passing context related information such as URLs and parameters
+2019-12-11 00:50:07,126 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles anti cross site request forgery (CSRF) tokens
+2019-12-11 00:50:07,128 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authentication Extension
+2019-12-11 00:50:07,193 [ZAP-daemon] INFO  ExtensionAuthentication - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2019-12-11 00:50:07,196 [ZAP-daemon] INFO  ExtensionLoader - Initializing Creates a dynamic SSL certificate to allow SSL communications to be intercepted without warnings being generated by the browser
+2019-12-11 00:50:08,187 [ZAP-daemon] INFO  ExtensionLoader - Initializing Logs errors to the Output tab in development mode only
+2019-12-11 00:50:08,187 [ZAP-daemon] INFO  ExtensionLoader - Initializing Users Extension
+2019-12-11 00:50:08,192 [ZAP-daemon] INFO  ExtensionLoader - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2019-12-11 00:50:08,193 [ZAP-daemon] INFO  ExtensionLoader - Initializing Script integration
+2019-12-11 00:50:08,236 [ZAP-daemon] INFO  ExtensionLoader - Initializing Scripting console, supports all JSR 223 scripting languages
+2019-12-11 00:50:08,237 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced User Extension
+2019-12-11 00:50:08,238 [ZAP-daemon] INFO  ExtensionLoader - Initializing Extension handling HTTP sessions
+2019-12-11 00:50:08,240 [ZAP-daemon] INFO  ExtensionLoader - Initializing Zest is a specialized scripting language from Mozilla specifically designed to be used in security tools
+2019-12-11 00:50:08,948 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionDiff
+2019-12-11 00:50:08,948 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Post Table View Extension
+2019-12-11 00:50:08,948 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session Management Extension
+2019-12-11 00:50:08,959 [ZAP-daemon] INFO  ExtensionSessionManagement - Loaded session management method types: [Cookie-based Session Management, HTTP Authentication Session Management]
+2019-12-11 00:50:08,967 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Form Table View Extension
+2019-12-11 00:50:08,967 [ZAP-daemon] INFO  ExtensionLoader - Initializing Capture messages from WebSockets with the ability to set breakpoints.
+2019-12-11 00:50:09,044 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to import a file containing URLs which ZAP will access, adding them to the Sites tree
+2019-12-11 00:50:09,045 [ZAP-daemon] INFO  ExtensionLoader - Initializing Core UI related functionality.
+2019-12-11 00:50:09,046 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authorization Extension
+2019-12-11 00:50:09,047 [ZAP-daemon] INFO  ExtensionLoader - Initializing AJAX Spider, uses Crawljax
+2019-12-11 00:50:09,049 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+2019-12-11 00:50:09,062 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manages the local proxy configurations
+2019-12-11 00:50:09,063 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles adding Global Excluded URLs
+2019-12-11 00:50:09,063 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds menu item to refresh the Sites tree
+2019-12-11 00:50:09,063 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds support for configurable keyboard shortcuts for all of the ZAP menus.
+2019-12-11 00:50:09,063 [ZAP-daemon] INFO  ExtensionLoader - Initializing OWASP ZAP User Guide
+2019-12-11 00:50:09,063 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a URL suitable for calling from target sites
+2019-12-11 00:50:09,070 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to configure which extensions are loaded when ZAP starts
+2019-12-11 00:50:09,070 [ZAP-daemon] INFO  ExtensionLoader - Initializing Combined HTTP Panels Extension
+2019-12-11 00:50:09,071 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Hex View Extension
+2019-12-11 00:50:09,072 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Image View Extension
+2019-12-11 00:50:09,072 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Request View Extension
+2019-12-11 00:50:09,072 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Response View Extension
+2019-12-11 00:50:09,072 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Query Table View Extension
+2019-12-11 00:50:09,072 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Syntax Highlighter View Extension
+2019-12-11 00:50:09,072 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active and passive rule configuration
+2019-12-11 00:50:09,078 [ZAP-daemon] INFO  ExtensionLoader - Initializing Statistics
+2019-12-11 00:50:09,080 [ZAP-daemon] INFO  ExtensionStats - Start recording in memory stats
+2019-12-11 00:50:09,083 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active Scan Rules
+2019-12-11 00:50:09,084 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionSaveRawHttpMessage
+2019-12-11 00:50:09,084 [ZAP-daemon] INFO  ExtensionLoader - Initializing Context alert rules filter
+2019-12-11 00:50:09,087 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowserLinux64
+2019-12-11 00:50:09,087 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtSelJxBrowserLinux64
+2019-12-11 00:50:09,101 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive Scan Rules
+2019-12-11 00:50:09,101 [ZAP-daemon] INFO  ExtensionLoader - Initializing Translations of the core language files
+2019-12-11 00:50:09,101 [ZAP-daemon] INFO  ExtensionLoader - Initializing Tips and Tricks
+2019-12-11 00:50:09,102 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides the foundation for concrete message types (for example, HTTP, WebSockets) expose fuzzer implementations.
+2019-12-11 00:50:09,105 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz HTTP messages.
+2019-12-11 00:50:09,106 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowser
+2019-12-11 00:50:09,106 [ZAP-daemon] INFO  ExtensionLoader - Initializing Quick Start panel 
+2019-12-11 00:50:09,106 [ZAP-daemon] INFO  ExtensionLoader - Initializing Launch browsers proxying through ZAP
+2019-12-11 00:50:09,110 [ZAP-daemon] INFO  ExtensionLoader - Initializing The Online menu links
+2019-12-11 00:50:09,110 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz WebSocket messages.
+2019-12-11 00:50:09,111 [ZAP-daemon] INFO  ExtensionLoader - Initializing Easy way to replace strings in requests and responses
+2019-12-11 00:50:09,116 [ZAP-daemon] INFO  ExtensionLoader - Initializing The ZAP Getting Started Guide
+2019-12-11 00:50:09,117 [ZAP-daemon] WARN  ExtensionAutoUpdate - This ZAP installation is over a year old - its probably very out of date
+2019-12-11 00:50:09,674 [ZAP-daemon] INFO  ExtensionCallback - Started callback server on 0.0.0.0:41383
+2019-12-11 00:50:10,300 [ZAP-daemon] INFO  DaemonBootstrap - ZAP is now listening on localhost:48793
+2019-12-12 03:53:58,103 [main ] INFO  DaemonBootstrap - OWASP ZAP 2.7.0 started 12/12/2019, 03:53:58 with home /root/Documents/apt-master/APT/zap/
+2019-12-12 03:53:58,370 [main ] INFO  AbstractParam - Setting config dirs = /root/Documents/apt-master/APT/zap/scripts was /root/Documents/apt-master/APT/zap/scripts
+2019-12-12 03:53:58,372 [main ] INFO  AbstractParam - Setting config start.checkForUpdates = false was false
+2019-12-12 03:53:58,374 [main ] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was false
+2019-12-12 03:53:58,375 [main ] INFO  AbstractParam - Setting config newsessionprompt = false was false
+2019-12-12 03:53:58,376 [main ] INFO  AbstractParam - Setting config api.key = NnCzJ3CsLlzZfl6c6OzI was 9GKAdQNnWsoIGgGvQDJm
+2019-12-12 03:53:58,405 [main ] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2019-12-12 03:53:58,405 [main ] INFO  SSLConnector - Using a SSLEngine...
+2019-12-12 03:53:59,116 [main ] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2019-12-12 03:53:59,188 [main ] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2019-12-12 03:54:00,591 [main ] INFO  ENGINE - open start - state not modified
+2019-12-12 03:54:01,061 [main ] INFO  ENGINE - dataFileCache open start
+2019-12-12 03:54:01,076 [main ] INFO  ENGINE - dataFileCache open end
+2019-12-12 03:54:01,388 [ZAP-daemon] INFO  ExtensionFactory - Loading extensions
+2019-12-12 03:54:06,524 [ZAP-daemon] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2019-12-12 03:54:09,768 [ZAP-daemon] INFO  ExtensionFactory - Extensions loaded
+2019-12-12 03:54:10,891 [ZAP-daemon] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2019-12-12 03:54:10,892 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2019-12-12 03:54:10,892 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2019-12-12 03:54:10,892 [ZAP-daemon] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2019-12-12 03:54:10,893 [ZAP-daemon] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2019-12-12 03:54:10,893 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2019-12-12 03:54:10,893 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2019-12-12 03:54:10,893 [ZAP-daemon] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2019-12-12 03:54:10,897 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2019-12-12 03:54:10,897 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2019-12-12 03:54:10,897 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2019-12-12 03:54:10,897 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2019-12-12 03:54:10,897 [ZAP-daemon] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2019-12-12 03:54:11,785 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows ZAP to check for updates
+2019-12-12 03:54:11,820 [ZAP-daemon] INFO  ExtensionLoader - Initializing Options Extension
+2019-12-12 03:54:11,820 [ZAP-daemon] INFO  ExtensionLoader - Initializing Edit Menu Extension
+2019-12-12 03:54:11,825 [ZAP-daemon] INFO  ExtensionLoader - Initializing Filter Extension
+2019-12-12 03:54:11,825 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a rest based API for controlling and accessing ZAP
+2019-12-12 03:54:12,059 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session State Extension
+2019-12-12 03:54:12,059 [ZAP-daemon] INFO  ExtensionLoader - Initializing Report Extension
+2019-12-12 03:54:12,060 [ZAP-daemon] INFO  ExtensionLoader - Initializing History Extension
+2019-12-12 03:54:12,076 [ZAP-daemon] INFO  ExtensionLoader - Initializing Show hidden fields and enable disabled fields
+2019-12-12 03:54:12,077 [ZAP-daemon] INFO  ExtensionLoader - Initializing Search messages for strings and regular expressions
+2019-12-12 03:54:12,079 [ZAP-daemon] INFO  ExtensionLoader - Initializing Encode/Decode/Hash...
+2019-12-12 03:54:12,079 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to intercept and modify requests and responses
+2019-12-12 03:54:12,083 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive scanner
+2019-12-12 03:54:12,316 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Script Passive Scan Rules
+2019-12-12 03:54:12,316 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Stats Passive Scan Rule
+2019-12-12 03:54:12,316 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Application Error Disclosure
+2019-12-12 03:54:12,317 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+2019-12-12 03:54:12,317 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type Header Missing
+2019-12-12 03:54:12,317 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie No HttpOnly Flag
+2019-12-12 03:54:12,317 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie Without Secure Flag
+2019-12-12 03:54:12,317 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+2019-12-12 03:54:12,317 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Web Browser XSS Protection Not Enabled
+2019-12-12 03:54:12,318 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Secure Pages Include Mixed Content
+2019-12-12 03:54:12,318 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in Browser
+2019-12-12 03:54:12,318 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP Disclosure
+2019-12-12 03:54:12,325 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Session ID in URL Rewrite
+2019-12-12 03:54:12,325 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options Header Missing
+2019-12-12 03:54:12,325 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options Header Scanner
+2019-12-12 03:54:12,376 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to view and manage alerts
+2019-12-12 03:54:12,376 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active scanner, heavily based on the original Paros active scanner, but with additional tests added
+2019-12-12 03:54:12,430 [ZAP-daemon] INFO  ExtensionLoader - Initializing Spider used for automatically finding URIs on a site
+2019-12-12 03:54:12,453 [ZAP-daemon] INFO  ExtensionLoader - Initializing A set of common popup menus for miscellaneous tasks
+2019-12-12 03:54:12,453 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced browsing of files and directories using code from the OWASP DirBuster tool
+2019-12-12 03:54:12,454 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manual Request Editor Extension
+2019-12-12 03:54:12,455 [ZAP-daemon] INFO  ExtensionLoader - Initializing Compares 2 sessions and generates an HTML file showing the differences
+2019-12-12 03:54:12,455 [ZAP-daemon] INFO  ExtensionLoader - Initializing Invoke external applications passing context related information such as URLs and parameters
+2019-12-12 03:54:12,456 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles anti cross site request forgery (CSRF) tokens
+2019-12-12 03:54:12,464 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authentication Extension
+2019-12-12 03:54:12,604 [ZAP-daemon] INFO  ExtensionAuthentication - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2019-12-12 03:54:12,607 [ZAP-daemon] INFO  ExtensionLoader - Initializing Creates a dynamic SSL certificate to allow SSL communications to be intercepted without warnings being generated by the browser
+2019-12-12 03:54:13,323 [ZAP-daemon] INFO  ExtensionLoader - Initializing Logs errors to the Output tab in development mode only
+2019-12-12 03:54:13,324 [ZAP-daemon] INFO  ExtensionLoader - Initializing Users Extension
+2019-12-12 03:54:13,328 [ZAP-daemon] INFO  ExtensionLoader - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2019-12-12 03:54:13,329 [ZAP-daemon] INFO  ExtensionLoader - Initializing Script integration
+2019-12-12 03:54:13,405 [ZAP-daemon] INFO  ExtensionLoader - Initializing Scripting console, supports all JSR 223 scripting languages
+2019-12-12 03:54:13,406 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced User Extension
+2019-12-12 03:54:13,407 [ZAP-daemon] INFO  ExtensionLoader - Initializing Extension handling HTTP sessions
+2019-12-12 03:54:13,410 [ZAP-daemon] INFO  ExtensionLoader - Initializing Zest is a specialized scripting language from Mozilla specifically designed to be used in security tools
+2019-12-12 03:54:14,194 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionDiff
+2019-12-12 03:54:14,194 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Post Table View Extension
+2019-12-12 03:54:14,195 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session Management Extension
+2019-12-12 03:54:14,231 [ZAP-daemon] INFO  ExtensionSessionManagement - Loaded session management method types: [Cookie-based Session Management, HTTP Authentication Session Management]
+2019-12-12 03:54:14,232 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Form Table View Extension
+2019-12-12 03:54:14,232 [ZAP-daemon] INFO  ExtensionLoader - Initializing Capture messages from WebSockets with the ability to set breakpoints.
+2019-12-12 03:54:14,301 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to import a file containing URLs which ZAP will access, adding them to the Sites tree
+2019-12-12 03:54:14,302 [ZAP-daemon] INFO  ExtensionLoader - Initializing Core UI related functionality.
+2019-12-12 03:54:14,303 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authorization Extension
+2019-12-12 03:54:14,303 [ZAP-daemon] INFO  ExtensionLoader - Initializing AJAX Spider, uses Crawljax
+2019-12-12 03:54:14,305 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+2019-12-12 03:54:14,337 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manages the local proxy configurations
+2019-12-12 03:54:14,338 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles adding Global Excluded URLs
+2019-12-12 03:54:14,339 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds menu item to refresh the Sites tree
+2019-12-12 03:54:14,339 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds support for configurable keyboard shortcuts for all of the ZAP menus.
+2019-12-12 03:54:14,339 [ZAP-daemon] INFO  ExtensionLoader - Initializing OWASP ZAP User Guide
+2019-12-12 03:54:14,340 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a URL suitable for calling from target sites
+2019-12-12 03:54:14,360 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to configure which extensions are loaded when ZAP starts
+2019-12-12 03:54:14,361 [ZAP-daemon] INFO  ExtensionLoader - Initializing Combined HTTP Panels Extension
+2019-12-12 03:54:14,361 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Hex View Extension
+2019-12-12 03:54:14,362 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Image View Extension
+2019-12-12 03:54:14,362 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Request View Extension
+2019-12-12 03:54:14,362 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Response View Extension
+2019-12-12 03:54:14,362 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Query Table View Extension
+2019-12-12 03:54:14,362 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Syntax Highlighter View Extension
+2019-12-12 03:54:14,362 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active and passive rule configuration
+2019-12-12 03:54:14,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing Statistics
+2019-12-12 03:54:14,370 [ZAP-daemon] INFO  ExtensionStats - Start recording in memory stats
+2019-12-12 03:54:14,372 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active Scan Rules
+2019-12-12 03:54:14,373 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionSaveRawHttpMessage
+2019-12-12 03:54:14,374 [ZAP-daemon] INFO  ExtensionLoader - Initializing Context alert rules filter
+2019-12-12 03:54:14,377 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowserLinux64
+2019-12-12 03:54:14,377 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtSelJxBrowserLinux64
+2019-12-12 03:54:14,425 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive Scan Rules
+2019-12-12 03:54:14,426 [ZAP-daemon] INFO  ExtensionLoader - Initializing Translations of the core language files
+2019-12-12 03:54:14,426 [ZAP-daemon] INFO  ExtensionLoader - Initializing Tips and Tricks
+2019-12-12 03:54:14,428 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides the foundation for concrete message types (for example, HTTP, WebSockets) expose fuzzer implementations.
+2019-12-12 03:54:14,431 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz HTTP messages.
+2019-12-12 03:54:14,432 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowser
+2019-12-12 03:54:14,432 [ZAP-daemon] INFO  ExtensionLoader - Initializing Quick Start panel 
+2019-12-12 03:54:14,432 [ZAP-daemon] INFO  ExtensionLoader - Initializing Launch browsers proxying through ZAP
+2019-12-12 03:54:14,435 [ZAP-daemon] INFO  ExtensionLoader - Initializing The Online menu links
+2019-12-12 03:54:14,435 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz WebSocket messages.
+2019-12-12 03:54:14,436 [ZAP-daemon] INFO  ExtensionLoader - Initializing Easy way to replace strings in requests and responses
+2019-12-12 03:54:14,446 [ZAP-daemon] INFO  ExtensionLoader - Initializing The ZAP Getting Started Guide
+2019-12-12 03:54:14,452 [ZAP-daemon] WARN  ExtensionAutoUpdate - This ZAP installation is over a year old - its probably very out of date
+2019-12-12 03:54:15,120 [ZAP-daemon] INFO  ExtensionCallback - Started callback server on 0.0.0.0:41101
+2019-12-12 03:54:15,788 [ZAP-daemon] INFO  DaemonBootstrap - ZAP is now listening on localhost:38973
+2019-12-12 03:55:15,463 [ZAP-ProxyThread-1] WARN  ProxyThread - Failed to read https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com/en/member within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2019-12-12 03:55:21,646 [ZAP-ProxyThread-7] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session1, active=false, tokenValues='']
+2019-12-12 03:55:21,866 [ZAP-ProxyThread-14] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session1, active=true, tokenValues='ASP.NET_SessionId=an2zn21y33buwnfq3yz33qwy;security=low']
+2019-12-12 03:55:21,905 [ZAP-SpiderInitThread-0] INFO  SpiderThread - Starting spidering scan on Context: ADAPT Context at Thu Dec 12 03:55:21 EST 2019
+2019-12-12 03:55:21,945 [ZAP-SpiderInitThread-0] INFO  Spider - Spider initializing...
+2019-12-12 03:55:22,082 [ZAP-SpiderInitThread-0] INFO  Spider - Starting spider...
+2019-12-12 03:55:34,652 [ZAP-SpiderThreadPool-0-thread-1] INFO  Spider - Spidering process is complete. Shutting down...
+2019-12-12 03:55:34,654 [ZAP-SpiderShutdownThread-0] INFO  SpiderThread - Spider scanning complete: true
+2019-12-12 03:55:36,732 [ZAP-ProxyThread-34] INFO  Scanner - scanner started
+2019-12-12 03:55:36,836 [Thread-8] INFO  HostProcess - Scanning 1 node(s) from https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com
+2019-12-12 03:55:36,836 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestPathTraversal strength MEDIUM threshold MEDIUM
+2019-12-12 03:56:04,196 [ZAP-ActiveScanner-0] WARN  TestPathTraversal - A timeout occurred while checking [GET] [https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com/en/member], parameter [query] for Path Traversal. The currently configured timeout is: 20
+2019-12-12 03:56:04,209 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestPathTraversal in 27.372s with 4 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:56:04,210 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestRemoteFileInclude strength MEDIUM threshold MEDIUM
+2019-12-12 03:56:51,260 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestRemoteFileInclude in 47.05s with 8 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:56:51,263 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestServerSideInclude strength MEDIUM threshold MEDIUM
+2019-12-12 03:57:11,457 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestServerSideInclude in 20.196s with 4 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:57:11,458 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestCrossSiteScriptV2 strength MEDIUM threshold MEDIUM
+2019-12-12 03:57:15,331 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestCrossSiteScriptV2 in 3.873s with 3 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:57:15,331 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestPersistentXSSPrime strength MEDIUM threshold MEDIUM
+2019-12-12 03:57:18,110 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestPersistentXSSPrime in 2.778s with 1 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:57:18,110 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestPersistentXSSSpider strength MEDIUM threshold MEDIUM
+2019-12-12 03:57:38,143 [ZAP-ActiveScanner-0] ERROR TestPersistentXSSSpider - Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1104)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1152)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:2107)
+	at org.zaproxy.zap.ZapGetMethod.readResponse(ZapGetMethod.java:88)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1155)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:460)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:199)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.parosproxy.paros.network.HttpSender.executeMethod(HttpSender.java:333)
+	at org.parosproxy.paros.network.HttpSender.runMethod(HttpSender.java:564)
+	at org.parosproxy.paros.network.HttpSender.send(HttpSender.java:523)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:501)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:490)
+	at org.parosproxy.paros.network.HttpSender.sendAndReceive(HttpSender.java:405)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:304)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:242)
+	at org.zaproxy.zap.extension.ascanrules.TestPersistentXSSSpider.scan(TestPersistentXSSSpider.java:81)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.run(AbstractPlugin.java:380)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-12-12 03:57:38,146 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestPersistentXSSSpider in 20.036s with 0 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:57:38,147 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestPersistentXSSAttack strength MEDIUM threshold MEDIUM
+2019-12-12 03:57:38,158 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestPersistentXSSAttack in 0.011s with 0 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:57:38,158 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestSQLInjection strength MEDIUM threshold MEDIUM
+2019-12-12 03:58:24,619 [ZAP-ActiveScanner-0] ERROR TestSQLInjection - An error occurred checking a url for SQL Injection vulnerabilities
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1104)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1152)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:2107)
+	at org.zaproxy.zap.ZapGetMethod.readResponse(ZapGetMethod.java:88)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1155)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:460)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:199)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.parosproxy.paros.network.HttpSender.executeMethod(HttpSender.java:333)
+	at org.parosproxy.paros.network.HttpSender.runMethod(HttpSender.java:564)
+	at org.parosproxy.paros.network.HttpSender.send(HttpSender.java:523)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:501)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:490)
+	at org.parosproxy.paros.network.HttpSender.sendAndReceive(HttpSender.java:405)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:304)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:242)
+	at org.zaproxy.zap.extension.ascanrules.TestSQLInjection.scan(TestSQLInjection.java:683)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:263)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scanVariant(AbstractAppParamPlugin.java:191)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:162)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.run(AbstractPlugin.java:380)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-12-12 03:58:24,625 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestSQLInjection in 46.466s with 8 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:58:24,625 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | CodeInjectionPlugin strength MEDIUM threshold MEDIUM
+2019-12-12 03:58:50,564 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | CodeInjectionPlugin in 25.939s with 8 message(s) sent and 0 alert(s) raised.
+2019-12-12 03:58:50,565 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | CommandInjectionPlugin strength MEDIUM threshold MEDIUM
+2019-12-12 03:59:12,821 [ZAP-ActiveScanner-0] WARN  CommandInjectionPlugin - Command Injection vulnerability check failed for parameter [query] and payload [;cat /etc/passwd;] due to an I/O error
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1104)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1152)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:2107)
+	at org.zaproxy.zap.ZapGetMethod.readResponse(ZapGetMethod.java:88)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1155)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:460)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:199)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.parosproxy.paros.network.HttpSender.executeMethod(HttpSender.java:333)
+	at org.parosproxy.paros.network.HttpSender.runMethod(HttpSender.java:564)
+	at org.parosproxy.paros.network.HttpSender.send(HttpSender.java:523)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:501)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:490)
+	at org.parosproxy.paros.network.HttpSender.sendAndReceive(HttpSender.java:405)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:304)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:242)
+	at org.zaproxy.zap.extension.ascanrules.CommandInjectionPlugin.testCommandInjection(CommandInjectionPlugin.java:437)
+	at org.zaproxy.zap.extension.ascanrules.CommandInjectionPlugin.scan(CommandInjectionPlugin.java:365)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:263)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scanVariant(AbstractAppParamPlugin.java:191)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:162)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.run(AbstractPlugin.java:380)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-12-12 03:59:33,803 [ZAP-ActiveScanner-0] WARN  CommandInjectionPlugin - There is considerable lagging in connection response(s) which gives a standard deviation of 7435.863803217485ms on the sample set which is more than 500.0ms
+2019-12-12 04:00:00,882 [ZAP-ActiveScanner-0] WARN  CommandInjectionPlugin - Blind Command Injection vulnerability check failed for parameter [query] and payload [";sleep {0};"] due to an I/O error
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1104)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1152)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:2107)
+	at org.zaproxy.zap.ZapGetMethod.readResponse(ZapGetMethod.java:88)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1155)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:460)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:199)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.parosproxy.paros.network.HttpSender.executeMethod(HttpSender.java:333)
+	at org.parosproxy.paros.network.HttpSender.runMethod(HttpSender.java:564)
+	at org.parosproxy.paros.network.HttpSender.send(HttpSender.java:523)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:501)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:490)
+	at org.parosproxy.paros.network.HttpSender.sendAndReceive(HttpSender.java:405)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:304)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:242)
+	at org.zaproxy.zap.extension.ascanrules.CommandInjectionPlugin.testCommandInjection(CommandInjectionPlugin.java:518)
+	at org.zaproxy.zap.extension.ascanrules.CommandInjectionPlugin.scan(CommandInjectionPlugin.java:365)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:263)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scanVariant(AbstractAppParamPlugin.java:191)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:162)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.run(AbstractPlugin.java:380)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-12-12 04:00:27,784 [ZAP-ActiveScanner-0] WARN  CommandInjectionPlugin - There is considerable lagging in connection response(s) which gives a standard deviation of 1014.0089578828515ms on the sample set which is more than 500.0ms
+2019-12-12 04:00:47,815 [ZAP-ActiveScanner-0] WARN  CommandInjectionPlugin - Blind Command Injection vulnerability check failed for parameter [query] and payload [&timeout /T {0}] due to an I/O error
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1104)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1152)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:2107)
+	at org.zaproxy.zap.ZapGetMethod.readResponse(ZapGetMethod.java:88)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1155)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:460)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:199)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.parosproxy.paros.network.HttpSender.executeMethod(HttpSender.java:333)
+	at org.parosproxy.paros.network.HttpSender.runMethod(HttpSender.java:564)
+	at org.parosproxy.paros.network.HttpSender.send(HttpSender.java:523)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:501)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:490)
+	at org.parosproxy.paros.network.HttpSender.sendAndReceive(HttpSender.java:405)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:304)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:242)
+	at org.zaproxy.zap.extension.ascanrules.CommandInjectionPlugin.testCommandInjection(CommandInjectionPlugin.java:518)
+	at org.zaproxy.zap.extension.ascanrules.CommandInjectionPlugin.scan(CommandInjectionPlugin.java:376)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:263)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scanVariant(AbstractAppParamPlugin.java:191)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:162)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.run(AbstractPlugin.java:380)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-12-12 04:01:05,042 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | CommandInjectionPlugin in 134.477s with 17 message(s) sent and 1 alert(s) raised.
+2019-12-12 04:01:05,042 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestDirectoryBrowsing strength MEDIUM threshold MEDIUM
+2019-12-12 04:01:05,562 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestDirectoryBrowsing in 0.52s with 1 message(s) sent and 0 alert(s) raised.
+2019-12-12 04:01:05,563 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestExternalRedirect strength MEDIUM threshold MEDIUM
+2019-12-12 04:01:34,522 [ZAP-ActiveScanner-0] WARN  TestExternalRedirect - External Redirect vulnerability check failed for parameter [query] and payload [//4537608688233824941.owasp.org] due to an I/O error
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:448)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1104)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:823)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1152)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:2107)
+	at org.zaproxy.zap.ZapGetMethod.readResponse(ZapGetMethod.java:88)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1155)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:460)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:199)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.parosproxy.paros.network.HttpSender.executeMethod(HttpSender.java:333)
+	at org.parosproxy.paros.network.HttpSender.runMethod(HttpSender.java:564)
+	at org.parosproxy.paros.network.HttpSender.send(HttpSender.java:523)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:501)
+	at org.parosproxy.paros.network.HttpSender.sendAuthenticated(HttpSender.java:490)
+	at org.parosproxy.paros.network.HttpSender.sendAndReceive(HttpSender.java:405)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.sendAndReceive(AbstractPlugin.java:304)
+	at org.zaproxy.zap.extension.ascanrules.TestExternalRedirect.scan(TestExternalRedirect.java:278)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:263)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scanVariant(AbstractAppParamPlugin.java:191)
+	at org.parosproxy.paros.core.scanner.AbstractAppParamPlugin.scan(AbstractAppParamPlugin.java:162)
+	at org.parosproxy.paros.core.scanner.AbstractPlugin.run(AbstractPlugin.java:380)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-12-12 04:01:53,191 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestExternalRedirect in 47.628s with 8 message(s) sent and 0 alert(s) raised.
+2019-12-12 04:01:53,192 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | BufferOverflow strength MEDIUM threshold MEDIUM
+2019-12-12 04:01:55,780 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | BufferOverflow in 2.588s with 1 message(s) sent and 0 alert(s) raised.
+2019-12-12 04:01:55,782 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | FormatString strength MEDIUM threshold MEDIUM
+2019-12-12 04:01:59,164 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | FormatString in 3.383s with 3 message(s) sent and 1 alert(s) raised.
+2019-12-12 04:01:59,165 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestInjectionCRLF strength MEDIUM threshold MEDIUM
+2019-12-12 04:02:43,071 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestInjectionCRLF in 43.906s with 6 message(s) sent and 0 alert(s) raised.
+2019-12-12 04:02:43,072 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestParameterTamper strength MEDIUM threshold MEDIUM
+2019-12-12 04:02:45,649 [Thread-8] INFO  HostProcess - completed host/plugin https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | TestParameterTamper in 2.578s with 1 message(s) sent and 0 alert(s) raised.
+2019-12-12 04:02:45,649 [Thread-8] INFO  HostProcess - start host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | ScriptsActiveScanner strength MEDIUM threshold MEDIUM
+2019-12-12 04:02:45,651 [Thread-8] INFO  HostProcess - skipped plugin [no scripts enabled] https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com | ScriptsActiveScanner in 0.002s with 0 message(s) sent and 0 alert(s) raised.
+2019-12-12 04:02:45,651 [Thread-8] INFO  HostProcess - completed host https://sit1-consumerism-bcbsri.healthcare.nttdataservices.com in 428.823s
+2019-12-12 04:02:45,652 [Thread-7] INFO  Scanner - scanner completed in 428.92s
+2019-12-12 04:03:54,774 [ZAP-ProxyThread-254] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session2, active=false, tokenValues='']
+2019-12-12 04:03:58,638 [ZAP-ProxyThread-261] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session3, active=false, tokenValues='']
+2019-12-12 04:04:01,824 [ZAP-ProxyThread-268] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session4, active=false, tokenValues='']
+2019-12-12 04:04:05,271 [ZAP-ProxyThread-275] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session5, active=false, tokenValues='']
+2019-12-12 04:04:10,118 [ZAP-ProxyThread-282] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session6, active=false, tokenValues='']
+2019-12-12 04:04:15,078 [ZAP-ProxyThread-289] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session7, active=false, tokenValues='']
+2019-12-12 04:04:21,433 [ZAP-ProxyThread-296] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session8, active=false, tokenValues='']
+2019-12-12 04:04:25,271 [ZAP-ProxyThread-303] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session9, active=false, tokenValues='']
+2019-12-12 04:04:28,587 [ZAP-ProxyThread-310] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session10, active=false, tokenValues='']
+2019-12-12 04:04:32,113 [ZAP-ProxyThread-317] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session11, active=false, tokenValues='']
+2019-12-12 04:04:37,134 [ZAP-ProxyThread-324] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session12, active=false, tokenValues='']
+2019-12-12 04:04:40,861 [ZAP-ProxyThread-331] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session13, active=false, tokenValues='']
+2019-12-12 04:04:44,609 [ZAP-ProxyThread-338] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session14, active=false, tokenValues='']
+2019-12-12 04:04:48,369 [ZAP-ProxyThread-345] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session15, active=false, tokenValues='']
+2019-12-12 04:04:51,980 [ZAP-ProxyThread-352] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session16, active=false, tokenValues='']
+2019-12-12 04:04:56,901 [ZAP-ProxyThread-359] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session17, active=false, tokenValues='']
+2019-12-12 04:05:01,299 [ZAP-ProxyThread-366] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session18, active=false, tokenValues='']
+2019-12-12 04:05:04,753 [ZAP-ProxyThread-373] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session19, active=false, tokenValues='']
+2019-12-12 04:05:09,534 [ZAP-ProxyThread-380] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session20, active=false, tokenValues='']
+2019-12-12 04:05:14,185 [ZAP-ProxyThread-387] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session21, active=false, tokenValues='']
+2019-12-12 04:05:18,890 [ZAP-ProxyThread-394] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session22, active=false, tokenValues='']
+2019-12-12 04:05:22,627 [ZAP-ProxyThread-401] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session23, active=false, tokenValues='']
+2019-12-12 04:05:26,318 [ZAP-ProxyThread-408] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session24, active=false, tokenValues='']
+2019-12-12 04:05:30,177 [ZAP-ProxyThread-415] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session25, active=false, tokenValues='']
+2019-12-12 04:05:38,954 [ZAP-ProxyThread-422] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session26, active=false, tokenValues='']
+2019-12-12 04:05:43,000 [ZAP-ProxyThread-429] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session27, active=false, tokenValues='']
+2019-12-12 04:05:46,203 [ZAP-ProxyThread-436] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session28, active=false, tokenValues='']
+2019-12-12 04:05:50,992 [ZAP-ProxyThread-443] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session29, active=false, tokenValues='']
+2019-12-12 04:05:54,555 [ZAP-ProxyThread-450] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session30, active=false, tokenValues='']
+2019-12-12 04:06:02,104 [ZAP-ProxyThread-457] INFO  HttpSessionsSite - Setting new active session for site 'sit1-consumerism-bcbsri.healthcare.nttdataservices.com:443': HttpSession [name=session31, active=false, tokenValues='']
+2020-04-10 01:41:03,239 [main ] INFO  Constant - Creating directory /root/Apt/APT/APT/zap/dirbuster
+2020-04-10 01:41:03,241 [main ] INFO  Constant - Creating directory /root/Apt/APT/APT/zap/plugin
+2020-04-10 01:41:03,241 [main ] INFO  Constant - Creating directory: /root/Apt/APT/APT/zap/filter
+2020-04-10 01:41:03,544 [main ] INFO  DaemonBootstrap - OWASP ZAP 2.7.0 started 10/04/2020, 01:41:03 with home /root/Apt/APT/APT/zap/
+2020-04-10 01:41:03,598 [main ] INFO  AbstractParam - Setting config dirs = /root/Apt/APT/APT/zap/scripts was /root/Documents/apt-master/APT/zap/scripts
+2020-04-10 01:41:03,599 [main ] INFO  AbstractParam - Setting config start.checkForUpdates = false was false
+2020-04-10 01:41:03,599 [main ] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was false
+2020-04-10 01:41:03,600 [main ] INFO  AbstractParam - Setting config newsessionprompt = false was false
+2020-04-10 01:41:03,600 [main ] INFO  AbstractParam - Setting config api.key = mIEUDqc4vuiTsbchT8Td was NnCzJ3CsLlzZfl6c6OzI
+2020-04-10 01:41:03,604 [main ] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2020-04-10 01:41:03,604 [main ] INFO  SSLConnector - Using a SSLEngine...
+2020-04-10 01:41:03,734 [main ] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2020-04-10 01:41:03,744 [main ] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2020-04-10 01:41:04,116 [main ] INFO  ENGINE - open start - state not modified
+2020-04-10 01:41:04,234 [main ] INFO  ENGINE - dataFileCache open start
+2020-04-10 01:41:04,239 [main ] INFO  ENGINE - dataFileCache open end
+2020-04-10 01:41:04,319 [ZAP-daemon] INFO  ExtensionFactory - Loading extensions
+2020-04-10 01:41:05,428 [ZAP-daemon] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2020-04-10 01:41:06,161 [ZAP-daemon] INFO  ExtensionFactory - Extensions loaded
+2020-04-10 01:41:06,314 [ZAP-daemon] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2020-04-10 01:41:06,314 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2020-04-10 01:41:06,315 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2020-04-10 01:41:06,315 [ZAP-daemon] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2020-04-10 01:41:06,315 [ZAP-daemon] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2020-04-10 01:41:06,315 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2020-04-10 01:41:06,316 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2020-04-10 01:41:06,316 [ZAP-daemon] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2020-04-10 01:41:06,316 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2020-04-10 01:41:06,316 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2020-04-10 01:41:06,316 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2020-04-10 01:41:06,316 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2020-04-10 01:41:06,316 [ZAP-daemon] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2020-04-10 01:41:06,474 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows ZAP to check for updates
+2020-04-10 01:41:06,482 [ZAP-daemon] INFO  ExtensionLoader - Initializing Options Extension
+2020-04-10 01:41:06,483 [ZAP-daemon] INFO  ExtensionLoader - Initializing Edit Menu Extension
+2020-04-10 01:41:06,483 [ZAP-daemon] INFO  ExtensionLoader - Initializing Filter Extension
+2020-04-10 01:41:06,483 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a rest based API for controlling and accessing ZAP
+2020-04-10 01:41:06,530 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session State Extension
+2020-04-10 01:41:06,530 [ZAP-daemon] INFO  ExtensionLoader - Initializing Report Extension
+2020-04-10 01:41:06,530 [ZAP-daemon] INFO  ExtensionLoader - Initializing History Extension
+2020-04-10 01:41:06,532 [ZAP-daemon] INFO  ExtensionLoader - Initializing Show hidden fields and enable disabled fields
+2020-04-10 01:41:06,532 [ZAP-daemon] INFO  ExtensionLoader - Initializing Search messages for strings and regular expressions
+2020-04-10 01:41:06,532 [ZAP-daemon] INFO  ExtensionLoader - Initializing Encode/Decode/Hash...
+2020-04-10 01:41:06,532 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to intercept and modify requests and responses
+2020-04-10 01:41:06,533 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive scanner
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Script Passive Scan Rules
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Stats Passive Scan Rule
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Application Error Disclosure
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type Header Missing
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie No HttpOnly Flag
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie Without Secure Flag
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+2020-04-10 01:41:06,602 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Web Browser XSS Protection Not Enabled
+2020-04-10 01:41:06,603 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Secure Pages Include Mixed Content
+2020-04-10 01:41:06,603 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in Browser
+2020-04-10 01:41:06,603 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP Disclosure
+2020-04-10 01:41:06,603 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Session ID in URL Rewrite
+2020-04-10 01:41:06,603 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options Header Missing
+2020-04-10 01:41:06,603 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options Header Scanner
+2020-04-10 01:41:06,620 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to view and manage alerts
+2020-04-10 01:41:06,620 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active scanner, heavily based on the original Paros active scanner, but with additional tests added
+2020-04-10 01:41:06,626 [ZAP-daemon] INFO  ExtensionLoader - Initializing Spider used for automatically finding URIs on a site
+2020-04-10 01:41:06,631 [ZAP-daemon] INFO  ExtensionLoader - Initializing A set of common popup menus for miscellaneous tasks
+2020-04-10 01:41:06,631 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced browsing of files and directories using code from the OWASP DirBuster tool
+2020-04-10 01:41:06,632 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manual Request Editor Extension
+2020-04-10 01:41:06,632 [ZAP-daemon] INFO  ExtensionLoader - Initializing Compares 2 sessions and generates an HTML file showing the differences
+2020-04-10 01:41:06,632 [ZAP-daemon] INFO  ExtensionLoader - Initializing Invoke external applications passing context related information such as URLs and parameters
+2020-04-10 01:41:06,632 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles anti cross site request forgery (CSRF) tokens
+2020-04-10 01:41:06,633 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authentication Extension
+2020-04-10 01:41:06,658 [ZAP-daemon] INFO  ExtensionAuthentication - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2020-04-10 01:41:06,659 [ZAP-daemon] INFO  ExtensionLoader - Initializing Creates a dynamic SSL certificate to allow SSL communications to be intercepted without warnings being generated by the browser
+2020-04-10 01:41:06,935 [ZAP-daemon] INFO  ExtensionLoader - Initializing Logs errors to the Output tab in development mode only
+2020-04-10 01:41:06,935 [ZAP-daemon] INFO  ExtensionLoader - Initializing Users Extension
+2020-04-10 01:41:06,936 [ZAP-daemon] INFO  ExtensionLoader - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2020-04-10 01:41:06,936 [ZAP-daemon] INFO  ExtensionLoader - Initializing Script integration
+2020-04-10 01:41:06,952 [ZAP-daemon] INFO  ExtensionLoader - Initializing Scripting console, supports all JSR 223 scripting languages
+2020-04-10 01:41:06,953 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced User Extension
+2020-04-10 01:41:06,953 [ZAP-daemon] INFO  ExtensionLoader - Initializing Extension handling HTTP sessions
+2020-04-10 01:41:06,954 [ZAP-daemon] INFO  ExtensionLoader - Initializing Zest is a specialized scripting language from Mozilla specifically designed to be used in security tools
+2020-04-10 01:41:07,197 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionDiff
+2020-04-10 01:41:07,198 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Post Table View Extension
+2020-04-10 01:41:07,198 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session Management Extension
+2020-04-10 01:41:07,211 [ZAP-daemon] INFO  ExtensionSessionManagement - Loaded session management method types: [Cookie-based Session Management, HTTP Authentication Session Management]
+2020-04-10 01:41:07,212 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Form Table View Extension
+2020-04-10 01:41:07,212 [ZAP-daemon] INFO  ExtensionLoader - Initializing Capture messages from WebSockets with the ability to set breakpoints.
+2020-04-10 01:41:07,256 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to import a file containing URLs which ZAP will access, adding them to the Sites tree
+2020-04-10 01:41:07,256 [ZAP-daemon] INFO  ExtensionLoader - Initializing Core UI related functionality.
+2020-04-10 01:41:07,256 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authorization Extension
+2020-04-10 01:41:07,257 [ZAP-daemon] INFO  ExtensionLoader - Initializing AJAX Spider, uses Crawljax
+2020-04-10 01:41:07,258 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+2020-04-10 01:41:07,272 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manages the local proxy configurations
+2020-04-10 01:41:07,273 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles adding Global Excluded URLs
+2020-04-10 01:41:07,273 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds menu item to refresh the Sites tree
+2020-04-10 01:41:07,273 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds support for configurable keyboard shortcuts for all of the ZAP menus.
+2020-04-10 01:41:07,275 [ZAP-daemon] INFO  ExtensionLoader - Initializing OWASP ZAP User Guide
+2020-04-10 01:41:07,276 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a URL suitable for calling from target sites
+2020-04-10 01:41:07,280 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to configure which extensions are loaded when ZAP starts
+2020-04-10 01:41:07,281 [ZAP-daemon] INFO  ExtensionLoader - Initializing Combined HTTP Panels Extension
+2020-04-10 01:41:07,281 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Hex View Extension
+2020-04-10 01:41:07,281 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Image View Extension
+2020-04-10 01:41:07,281 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Request View Extension
+2020-04-10 01:41:07,281 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Response View Extension
+2020-04-10 01:41:07,281 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Query Table View Extension
+2020-04-10 01:41:07,281 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Syntax Highlighter View Extension
+2020-04-10 01:41:07,281 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active and passive rule configuration
+2020-04-10 01:41:07,283 [ZAP-daemon] INFO  ExtensionLoader - Initializing Statistics
+2020-04-10 01:41:07,285 [ZAP-daemon] INFO  ExtensionStats - Start recording in memory stats
+2020-04-10 01:41:07,287 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active Scan Rules
+2020-04-10 01:41:07,289 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionSaveRawHttpMessage
+2020-04-10 01:41:07,289 [ZAP-daemon] INFO  ExtensionLoader - Initializing Context alert rules filter
+2020-04-10 01:41:07,290 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowserLinux64
+2020-04-10 01:41:07,290 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtSelJxBrowserLinux64
+2020-04-10 01:41:07,308 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive Scan Rules
+2020-04-10 01:41:07,309 [ZAP-daemon] INFO  ExtensionLoader - Initializing Translations of the core language files
+2020-04-10 01:41:07,309 [ZAP-daemon] INFO  ExtensionLoader - Initializing Tips and Tricks
+2020-04-10 01:41:07,309 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides the foundation for concrete message types (for example, HTTP, WebSockets) expose fuzzer implementations.
+2020-04-10 01:41:07,311 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz HTTP messages.
+2020-04-10 01:41:07,311 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowser
+2020-04-10 01:41:07,311 [ZAP-daemon] INFO  ExtensionLoader - Initializing Quick Start panel 
+2020-04-10 01:41:07,311 [ZAP-daemon] INFO  ExtensionLoader - Initializing Launch browsers proxying through ZAP
+2020-04-10 01:41:07,313 [ZAP-daemon] INFO  ExtensionLoader - Initializing The Online menu links
+2020-04-10 01:41:07,313 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz WebSocket messages.
+2020-04-10 01:41:07,313 [ZAP-daemon] INFO  ExtensionLoader - Initializing Easy way to replace strings in requests and responses
+2020-04-10 01:41:07,315 [ZAP-daemon] INFO  ExtensionLoader - Initializing The ZAP Getting Started Guide
+2020-04-10 01:41:07,315 [ZAP-daemon] WARN  ExtensionAutoUpdate - This ZAP installation is over a year old - its probably very out of date
+2020-04-10 01:41:07,738 [ZAP-daemon] INFO  ExtensionCallback - Started callback server on 0.0.0.0:44435
+2020-04-10 01:41:07,964 [ZAP-daemon] INFO  DaemonBootstrap - ZAP is now listening on localhost:45991
+2020-04-10 01:48:35,704 [ZAP-ProxyThread-7] WARN  API - Bad request to API endpoint [/JSON/spider/action/scan/] from [127.0.0.1]:
+The provided url is not in the required context (url_not_in_context) : url
+	at org.zaproxy.zap.extension.spider.SpiderAPI.scanURL(SpiderAPI.java:455)
+	at org.zaproxy.zap.extension.spider.SpiderAPI.handleApiAction(SpiderAPI.java:225)
+	at org.zaproxy.zap.extension.api.API.handleApiRequest(API.java:431)
+	at org.parosproxy.paros.core.proxy.ProxyThread.processHttp(ProxyThread.java:456)
+	at org.parosproxy.paros.core.proxy.ProxyThread.run(ProxyThread.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-10 01:48:35,720 [ZAP-ProxyThread-8] WARN  API - Bad request to API endpoint [/JSON/spider/view/status/] from [127.0.0.1]:
+Does Not Exist (does_not_exist) : scanId
+	at org.zaproxy.zap.extension.spider.SpiderAPI.getSpiderScan(SpiderAPI.java:427)
+	at org.zaproxy.zap.extension.spider.SpiderAPI.handleApiView(SpiderAPI.java:533)
+	at org.zaproxy.zap.extension.api.API.handleApiRequest(API.java:467)
+	at org.parosproxy.paros.core.proxy.ProxyThread.processHttp(ProxyThread.java:456)
+	at org.parosproxy.paros.core.proxy.ProxyThread.run(ProxyThread.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-10 01:53:37,884 [main ] INFO  DaemonBootstrap - OWASP ZAP 2.7.0 started 10/04/2020, 01:53:37 with home /root/Apt/APT/APT/zap/
+2020-04-10 01:53:37,907 [main ] INFO  AbstractParam - Setting config dirs = /root/Apt/APT/APT/zap/scripts was /root/Apt/APT/APT/zap/scripts
+2020-04-10 01:53:37,907 [main ] INFO  AbstractParam - Setting config start.checkForUpdates = false was false
+2020-04-10 01:53:37,908 [main ] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was false
+2020-04-10 01:53:37,908 [main ] INFO  AbstractParam - Setting config newsessionprompt = false was false
+2020-04-10 01:53:37,908 [main ] INFO  AbstractParam - Setting config api.key = r677bGZYyGzDuldonGHy was mIEUDqc4vuiTsbchT8Td
+2020-04-10 01:53:37,911 [main ] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2020-04-10 01:53:37,911 [main ] INFO  SSLConnector - Using a SSLEngine...
+2020-04-10 01:53:37,976 [main ] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2020-04-10 01:53:37,980 [main ] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2020-04-10 01:53:38,162 [main ] INFO  ENGINE - open start - state not modified
+2020-04-10 01:53:38,281 [main ] INFO  ENGINE - dataFileCache open start
+2020-04-10 01:53:38,286 [main ] INFO  ENGINE - dataFileCache open end
+2020-04-10 01:53:38,342 [ZAP-daemon] INFO  ExtensionFactory - Loading extensions
+2020-04-10 01:53:39,108 [ZAP-daemon] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2020-04-10 01:53:39,620 [ZAP-daemon] INFO  ExtensionFactory - Extensions loaded
+2020-04-10 01:53:39,796 [ZAP-daemon] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2020-04-10 01:53:39,797 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2020-04-10 01:53:39,797 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2020-04-10 01:53:39,797 [ZAP-daemon] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2020-04-10 01:53:39,797 [ZAP-daemon] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2020-04-10 01:53:39,797 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2020-04-10 01:53:39,797 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2020-04-10 01:53:39,797 [ZAP-daemon] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2020-04-10 01:53:39,798 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2020-04-10 01:53:39,798 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2020-04-10 01:53:39,798 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2020-04-10 01:53:39,798 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2020-04-10 01:53:39,798 [ZAP-daemon] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2020-04-10 01:53:39,927 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows ZAP to check for updates
+2020-04-10 01:53:39,932 [ZAP-daemon] INFO  ExtensionLoader - Initializing Options Extension
+2020-04-10 01:53:39,933 [ZAP-daemon] INFO  ExtensionLoader - Initializing Edit Menu Extension
+2020-04-10 01:53:39,933 [ZAP-daemon] INFO  ExtensionLoader - Initializing Filter Extension
+2020-04-10 01:53:39,933 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a rest based API for controlling and accessing ZAP
+2020-04-10 01:53:39,978 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session State Extension
+2020-04-10 01:53:39,978 [ZAP-daemon] INFO  ExtensionLoader - Initializing Report Extension
+2020-04-10 01:53:39,979 [ZAP-daemon] INFO  ExtensionLoader - Initializing History Extension
+2020-04-10 01:53:39,980 [ZAP-daemon] INFO  ExtensionLoader - Initializing Show hidden fields and enable disabled fields
+2020-04-10 01:53:39,980 [ZAP-daemon] INFO  ExtensionLoader - Initializing Search messages for strings and regular expressions
+2020-04-10 01:53:39,981 [ZAP-daemon] INFO  ExtensionLoader - Initializing Encode/Decode/Hash...
+2020-04-10 01:53:39,981 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to intercept and modify requests and responses
+2020-04-10 01:53:39,981 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive scanner
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Script Passive Scan Rules
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Stats Passive Scan Rule
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Application Error Disclosure
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type Header Missing
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie No HttpOnly Flag
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie Without Secure Flag
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+2020-04-10 01:53:40,021 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Web Browser XSS Protection Not Enabled
+2020-04-10 01:53:40,022 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Secure Pages Include Mixed Content
+2020-04-10 01:53:40,022 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in Browser
+2020-04-10 01:53:40,022 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP Disclosure
+2020-04-10 01:53:40,022 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Session ID in URL Rewrite
+2020-04-10 01:53:40,022 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options Header Missing
+2020-04-10 01:53:40,022 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options Header Scanner
+2020-04-10 01:53:40,034 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to view and manage alerts
+2020-04-10 01:53:40,034 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active scanner, heavily based on the original Paros active scanner, but with additional tests added
+2020-04-10 01:53:40,037 [ZAP-daemon] INFO  ExtensionLoader - Initializing Spider used for automatically finding URIs on a site
+2020-04-10 01:53:40,041 [ZAP-daemon] INFO  ExtensionLoader - Initializing A set of common popup menus for miscellaneous tasks
+2020-04-10 01:53:40,041 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced browsing of files and directories using code from the OWASP DirBuster tool
+2020-04-10 01:53:40,041 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manual Request Editor Extension
+2020-04-10 01:53:40,041 [ZAP-daemon] INFO  ExtensionLoader - Initializing Compares 2 sessions and generates an HTML file showing the differences
+2020-04-10 01:53:40,042 [ZAP-daemon] INFO  ExtensionLoader - Initializing Invoke external applications passing context related information such as URLs and parameters
+2020-04-10 01:53:40,042 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles anti cross site request forgery (CSRF) tokens
+2020-04-10 01:53:40,043 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authentication Extension
+2020-04-10 01:53:40,059 [ZAP-daemon] INFO  ExtensionAuthentication - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2020-04-10 01:53:40,059 [ZAP-daemon] INFO  ExtensionLoader - Initializing Creates a dynamic SSL certificate to allow SSL communications to be intercepted without warnings being generated by the browser
+2020-04-10 01:53:40,220 [ZAP-daemon] INFO  ExtensionLoader - Initializing Logs errors to the Output tab in development mode only
+2020-04-10 01:53:40,220 [ZAP-daemon] INFO  ExtensionLoader - Initializing Users Extension
+2020-04-10 01:53:40,222 [ZAP-daemon] INFO  ExtensionLoader - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2020-04-10 01:53:40,222 [ZAP-daemon] INFO  ExtensionLoader - Initializing Script integration
+2020-04-10 01:53:40,234 [ZAP-daemon] INFO  ExtensionLoader - Initializing Scripting console, supports all JSR 223 scripting languages
+2020-04-10 01:53:40,241 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced User Extension
+2020-04-10 01:53:40,242 [ZAP-daemon] INFO  ExtensionLoader - Initializing Extension handling HTTP sessions
+2020-04-10 01:53:40,243 [ZAP-daemon] INFO  ExtensionLoader - Initializing Zest is a specialized scripting language from Mozilla specifically designed to be used in security tools
+2020-04-10 01:53:40,511 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionDiff
+2020-04-10 01:53:40,511 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Post Table View Extension
+2020-04-10 01:53:40,511 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session Management Extension
+2020-04-10 01:53:40,514 [ZAP-daemon] INFO  ExtensionSessionManagement - Loaded session management method types: [Cookie-based Session Management, HTTP Authentication Session Management]
+2020-04-10 01:53:40,515 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Form Table View Extension
+2020-04-10 01:53:40,515 [ZAP-daemon] INFO  ExtensionLoader - Initializing Capture messages from WebSockets with the ability to set breakpoints.
+2020-04-10 01:53:40,532 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to import a file containing URLs which ZAP will access, adding them to the Sites tree
+2020-04-10 01:53:40,532 [ZAP-daemon] INFO  ExtensionLoader - Initializing Core UI related functionality.
+2020-04-10 01:53:40,532 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authorization Extension
+2020-04-10 01:53:40,532 [ZAP-daemon] INFO  ExtensionLoader - Initializing AJAX Spider, uses Crawljax
+2020-04-10 01:53:40,533 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+2020-04-10 01:53:40,536 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manages the local proxy configurations
+2020-04-10 01:53:40,536 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles adding Global Excluded URLs
+2020-04-10 01:53:40,536 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds menu item to refresh the Sites tree
+2020-04-10 01:53:40,536 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds support for configurable keyboard shortcuts for all of the ZAP menus.
+2020-04-10 01:53:40,536 [ZAP-daemon] INFO  ExtensionLoader - Initializing OWASP ZAP User Guide
+2020-04-10 01:53:40,537 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a URL suitable for calling from target sites
+2020-04-10 01:53:40,544 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to configure which extensions are loaded when ZAP starts
+2020-04-10 01:53:40,544 [ZAP-daemon] INFO  ExtensionLoader - Initializing Combined HTTP Panels Extension
+2020-04-10 01:53:40,544 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Hex View Extension
+2020-04-10 01:53:40,544 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Image View Extension
+2020-04-10 01:53:40,544 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Request View Extension
+2020-04-10 01:53:40,544 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Response View Extension
+2020-04-10 01:53:40,544 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Query Table View Extension
+2020-04-10 01:53:40,544 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Syntax Highlighter View Extension
+2020-04-10 01:53:40,545 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active and passive rule configuration
+2020-04-10 01:53:40,546 [ZAP-daemon] INFO  ExtensionLoader - Initializing Statistics
+2020-04-10 01:53:40,547 [ZAP-daemon] INFO  ExtensionStats - Start recording in memory stats
+2020-04-10 01:53:40,549 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active Scan Rules
+2020-04-10 01:53:40,549 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionSaveRawHttpMessage
+2020-04-10 01:53:40,550 [ZAP-daemon] INFO  ExtensionLoader - Initializing Context alert rules filter
+2020-04-10 01:53:40,551 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowserLinux64
+2020-04-10 01:53:40,551 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtSelJxBrowserLinux64
+2020-04-10 01:53:40,568 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive Scan Rules
+2020-04-10 01:53:40,568 [ZAP-daemon] INFO  ExtensionLoader - Initializing Translations of the core language files
+2020-04-10 01:53:40,568 [ZAP-daemon] INFO  ExtensionLoader - Initializing Tips and Tricks
+2020-04-10 01:53:40,568 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides the foundation for concrete message types (for example, HTTP, WebSockets) expose fuzzer implementations.
+2020-04-10 01:53:40,569 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz HTTP messages.
+2020-04-10 01:53:40,569 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowser
+2020-04-10 01:53:40,569 [ZAP-daemon] INFO  ExtensionLoader - Initializing Quick Start panel 
+2020-04-10 01:53:40,569 [ZAP-daemon] INFO  ExtensionLoader - Initializing Launch browsers proxying through ZAP
+2020-04-10 01:53:40,572 [ZAP-daemon] INFO  ExtensionLoader - Initializing The Online menu links
+2020-04-10 01:53:40,572 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz WebSocket messages.
+2020-04-10 01:53:40,572 [ZAP-daemon] INFO  ExtensionLoader - Initializing Easy way to replace strings in requests and responses
+2020-04-10 01:53:40,579 [ZAP-daemon] INFO  ExtensionLoader - Initializing The ZAP Getting Started Guide
+2020-04-10 01:53:40,580 [ZAP-daemon] WARN  ExtensionAutoUpdate - This ZAP installation is over a year old - its probably very out of date
+2020-04-10 01:53:40,744 [ZAP-daemon] INFO  ExtensionCallback - Started callback server on 0.0.0.0:37809
+2020-04-10 01:53:40,905 [ZAP-daemon] INFO  DaemonBootstrap - ZAP is now listening on localhost:38809
+2020-04-10 02:00:56,745 [ZAP-ProxyThread-7] INFO  HttpSessionsSite - Setting new active session for site 'sit2-consumerism-avmed.healthcare.nttdataservices.com:443': HttpSession [name=session1, active=false, tokenValues='']
+2020-04-10 02:00:56,836 [ZAP-ProxyThread-18] INFO  HttpSessionsSite - Setting new active session for site 'sit2-consumerism-avmed.healthcare.nttdataservices.com:443': HttpSession [name=session1, active=true, tokenValues='TS0192fc0a=0191c762339fb17268f23cec42628b491fee12d8413d1e78c5daa478b722c3aed06f0146282380179b99378e04e9029abd435ce6b3956a732cc62a5224be741dc8efa77cb389b318b14093d1f5df0c3ba54b67a3310745de18e789ba7d02e49e42d23f4684;TS68e1991d029=08aacc308bab2800ac09c925b0d1401ea4ce6e7a582e986d090b272a61631f8424de41851c1231f9086c42fa43442cc4;ASP.NET_SessionId=kuqf5dgrlp0zxszqzsrex13w;__RequestVerificationToken=2v_kIeC7GK37ZQIYF3V0NCLT9dw4yyLRRi_h-EiQAFhhTw7vFpDYn_4i5sjNcSwRPJkAgd4QimKVlJvn-gJLD7MvgJI1']
+2020-04-10 02:00:56,840 [ZAP-ProxyThread-19] WARN  API - Bad request to API endpoint [/JSON/spider/action/scan/] from [127.0.0.1]:
+The provided url is not in the required context (url_not_in_context) : url
+	at org.zaproxy.zap.extension.spider.SpiderAPI.scanURL(SpiderAPI.java:455)
+	at org.zaproxy.zap.extension.spider.SpiderAPI.handleApiAction(SpiderAPI.java:225)
+	at org.zaproxy.zap.extension.api.API.handleApiRequest(API.java:431)
+	at org.parosproxy.paros.core.proxy.ProxyThread.processHttp(ProxyThread.java:456)
+	at org.parosproxy.paros.core.proxy.ProxyThread.run(ProxyThread.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-10 02:00:56,851 [ZAP-ProxyThread-20] WARN  API - Bad request to API endpoint [/JSON/spider/view/status/] from [127.0.0.1]:
+Does Not Exist (does_not_exist) : scanId
+	at org.zaproxy.zap.extension.spider.SpiderAPI.getSpiderScan(SpiderAPI.java:427)
+	at org.zaproxy.zap.extension.spider.SpiderAPI.handleApiView(SpiderAPI.java:533)
+	at org.zaproxy.zap.extension.api.API.handleApiRequest(API.java:467)
+	at org.parosproxy.paros.core.proxy.ProxyThread.processHttp(ProxyThread.java:456)
+	at org.parosproxy.paros.core.proxy.ProxyThread.run(ProxyThread.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-10 02:43:45,536 [main ] INFO  DaemonBootstrap - OWASP ZAP 2.7.0 started 10/04/2020, 02:43:45 with home /root/Apt/APT/APT/zap/
+2020-04-10 02:43:45,584 [main ] INFO  AbstractParam - Setting config dirs = /root/Apt/APT/APT/zap/scripts was /root/Apt/APT/APT/zap/scripts
+2020-04-10 02:43:45,584 [main ] INFO  AbstractParam - Setting config start.checkForUpdates = false was false
+2020-04-10 02:43:45,584 [main ] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was false
+2020-04-10 02:43:45,584 [main ] INFO  AbstractParam - Setting config newsessionprompt = false was false
+2020-04-10 02:43:45,585 [main ] INFO  AbstractParam - Setting config api.key = 8EpBJsTIjUtN1xBO2lDK was r677bGZYyGzDuldonGHy
+2020-04-10 02:43:45,588 [main ] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2020-04-10 02:43:45,588 [main ] INFO  SSLConnector - Using a SSLEngine...
+2020-04-10 02:43:45,689 [main ] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2020-04-10 02:43:45,700 [main ] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2020-04-10 02:43:46,020 [main ] INFO  ENGINE - open start - state not modified
+2020-04-10 02:43:46,140 [main ] INFO  ENGINE - dataFileCache open start
+2020-04-10 02:43:46,145 [main ] INFO  ENGINE - dataFileCache open end
+2020-04-10 02:43:46,213 [ZAP-daemon] INFO  ExtensionFactory - Loading extensions
+2020-04-10 02:43:47,079 [ZAP-daemon] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2020-04-10 02:43:47,856 [ZAP-daemon] INFO  ExtensionFactory - Extensions loaded
+2020-04-10 02:43:48,057 [ZAP-daemon] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2020-04-10 02:43:48,057 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2020-04-10 02:43:48,057 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2020-04-10 02:43:48,057 [ZAP-daemon] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2020-04-10 02:43:48,057 [ZAP-daemon] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2020-04-10 02:43:48,057 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2020-04-10 02:43:48,057 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2020-04-10 02:43:48,057 [ZAP-daemon] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2020-04-10 02:43:48,058 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2020-04-10 02:43:48,058 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2020-04-10 02:43:48,058 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2020-04-10 02:43:48,058 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2020-04-10 02:43:48,058 [ZAP-daemon] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2020-04-10 02:43:48,212 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows ZAP to check for updates
+2020-04-10 02:43:48,227 [ZAP-daemon] INFO  ExtensionLoader - Initializing Options Extension
+2020-04-10 02:43:48,227 [ZAP-daemon] INFO  ExtensionLoader - Initializing Edit Menu Extension
+2020-04-10 02:43:48,227 [ZAP-daemon] INFO  ExtensionLoader - Initializing Filter Extension
+2020-04-10 02:43:48,227 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a rest based API for controlling and accessing ZAP
+2020-04-10 02:43:48,275 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session State Extension
+2020-04-10 02:43:48,275 [ZAP-daemon] INFO  ExtensionLoader - Initializing Report Extension
+2020-04-10 02:43:48,276 [ZAP-daemon] INFO  ExtensionLoader - Initializing History Extension
+2020-04-10 02:43:48,278 [ZAP-daemon] INFO  ExtensionLoader - Initializing Show hidden fields and enable disabled fields
+2020-04-10 02:43:48,278 [ZAP-daemon] INFO  ExtensionLoader - Initializing Search messages for strings and regular expressions
+2020-04-10 02:43:48,279 [ZAP-daemon] INFO  ExtensionLoader - Initializing Encode/Decode/Hash...
+2020-04-10 02:43:48,279 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to intercept and modify requests and responses
+2020-04-10 02:43:48,279 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive scanner
+2020-04-10 02:43:48,322 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Script Passive Scan Rules
+2020-04-10 02:43:48,322 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Stats Passive Scan Rule
+2020-04-10 02:43:48,322 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Application Error Disclosure
+2020-04-10 02:43:48,322 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+2020-04-10 02:43:48,322 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type Header Missing
+2020-04-10 02:43:48,322 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie No HttpOnly Flag
+2020-04-10 02:43:48,322 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie Without Secure Flag
+2020-04-10 02:43:48,323 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+2020-04-10 02:43:48,323 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Web Browser XSS Protection Not Enabled
+2020-04-10 02:43:48,323 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Secure Pages Include Mixed Content
+2020-04-10 02:43:48,323 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in Browser
+2020-04-10 02:43:48,323 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP Disclosure
+2020-04-10 02:43:48,323 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Session ID in URL Rewrite
+2020-04-10 02:43:48,324 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options Header Missing
+2020-04-10 02:43:48,324 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options Header Scanner
+2020-04-10 02:43:48,341 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to view and manage alerts
+2020-04-10 02:43:48,341 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active scanner, heavily based on the original Paros active scanner, but with additional tests added
+2020-04-10 02:43:48,345 [ZAP-daemon] INFO  ExtensionLoader - Initializing Spider used for automatically finding URIs on a site
+2020-04-10 02:43:48,349 [ZAP-daemon] INFO  ExtensionLoader - Initializing A set of common popup menus for miscellaneous tasks
+2020-04-10 02:43:48,349 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced browsing of files and directories using code from the OWASP DirBuster tool
+2020-04-10 02:43:48,350 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manual Request Editor Extension
+2020-04-10 02:43:48,350 [ZAP-daemon] INFO  ExtensionLoader - Initializing Compares 2 sessions and generates an HTML file showing the differences
+2020-04-10 02:43:48,350 [ZAP-daemon] INFO  ExtensionLoader - Initializing Invoke external applications passing context related information such as URLs and parameters
+2020-04-10 02:43:48,351 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles anti cross site request forgery (CSRF) tokens
+2020-04-10 02:43:48,352 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authentication Extension
+2020-04-10 02:43:48,374 [ZAP-daemon] INFO  ExtensionAuthentication - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2020-04-10 02:43:48,375 [ZAP-daemon] INFO  ExtensionLoader - Initializing Creates a dynamic SSL certificate to allow SSL communications to be intercepted without warnings being generated by the browser
+2020-04-10 02:43:48,631 [ZAP-daemon] INFO  ExtensionLoader - Initializing Logs errors to the Output tab in development mode only
+2020-04-10 02:43:48,631 [ZAP-daemon] INFO  ExtensionLoader - Initializing Users Extension
+2020-04-10 02:43:48,632 [ZAP-daemon] INFO  ExtensionLoader - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2020-04-10 02:43:48,633 [ZAP-daemon] INFO  ExtensionLoader - Initializing Script integration
+2020-04-10 02:43:48,652 [ZAP-daemon] INFO  ExtensionLoader - Initializing Scripting console, supports all JSR 223 scripting languages
+2020-04-10 02:43:48,653 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced User Extension
+2020-04-10 02:43:48,653 [ZAP-daemon] INFO  ExtensionLoader - Initializing Extension handling HTTP sessions
+2020-04-10 02:43:48,654 [ZAP-daemon] INFO  ExtensionLoader - Initializing Zest is a specialized scripting language from Mozilla specifically designed to be used in security tools
+2020-04-10 02:43:49,078 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionDiff
+2020-04-10 02:43:49,078 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Post Table View Extension
+2020-04-10 02:43:49,079 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session Management Extension
+2020-04-10 02:43:49,089 [ZAP-daemon] INFO  ExtensionSessionManagement - Loaded session management method types: [Cookie-based Session Management, HTTP Authentication Session Management]
+2020-04-10 02:43:49,090 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Form Table View Extension
+2020-04-10 02:43:49,090 [ZAP-daemon] INFO  ExtensionLoader - Initializing Capture messages from WebSockets with the ability to set breakpoints.
+2020-04-10 02:43:49,140 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to import a file containing URLs which ZAP will access, adding them to the Sites tree
+2020-04-10 02:43:49,142 [ZAP-daemon] INFO  ExtensionLoader - Initializing Core UI related functionality.
+2020-04-10 02:43:49,142 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authorization Extension
+2020-04-10 02:43:49,142 [ZAP-daemon] INFO  ExtensionLoader - Initializing AJAX Spider, uses Crawljax
+2020-04-10 02:43:49,144 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+2020-04-10 02:43:49,158 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manages the local proxy configurations
+2020-04-10 02:43:49,159 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles adding Global Excluded URLs
+2020-04-10 02:43:49,159 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds menu item to refresh the Sites tree
+2020-04-10 02:43:49,159 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds support for configurable keyboard shortcuts for all of the ZAP menus.
+2020-04-10 02:43:49,160 [ZAP-daemon] INFO  ExtensionLoader - Initializing OWASP ZAP User Guide
+2020-04-10 02:43:49,160 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a URL suitable for calling from target sites
+2020-04-10 02:43:49,164 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to configure which extensions are loaded when ZAP starts
+2020-04-10 02:43:49,165 [ZAP-daemon] INFO  ExtensionLoader - Initializing Combined HTTP Panels Extension
+2020-04-10 02:43:49,165 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Hex View Extension
+2020-04-10 02:43:49,165 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Image View Extension
+2020-04-10 02:43:49,165 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Request View Extension
+2020-04-10 02:43:49,165 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Response View Extension
+2020-04-10 02:43:49,165 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Query Table View Extension
+2020-04-10 02:43:49,165 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Syntax Highlighter View Extension
+2020-04-10 02:43:49,165 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active and passive rule configuration
+2020-04-10 02:43:49,170 [ZAP-daemon] INFO  ExtensionLoader - Initializing Statistics
+2020-04-10 02:43:49,172 [ZAP-daemon] INFO  ExtensionStats - Start recording in memory stats
+2020-04-10 02:43:49,174 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active Scan Rules
+2020-04-10 02:43:49,175 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionSaveRawHttpMessage
+2020-04-10 02:43:49,175 [ZAP-daemon] INFO  ExtensionLoader - Initializing Context alert rules filter
+2020-04-10 02:43:49,176 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowserLinux64
+2020-04-10 02:43:49,177 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtSelJxBrowserLinux64
+2020-04-10 02:43:49,187 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive Scan Rules
+2020-04-10 02:43:49,187 [ZAP-daemon] INFO  ExtensionLoader - Initializing Translations of the core language files
+2020-04-10 02:43:49,188 [ZAP-daemon] INFO  ExtensionLoader - Initializing Tips and Tricks
+2020-04-10 02:43:49,188 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides the foundation for concrete message types (for example, HTTP, WebSockets) expose fuzzer implementations.
+2020-04-10 02:43:49,189 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz HTTP messages.
+2020-04-10 02:43:49,189 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowser
+2020-04-10 02:43:49,189 [ZAP-daemon] INFO  ExtensionLoader - Initializing Quick Start panel 
+2020-04-10 02:43:49,189 [ZAP-daemon] INFO  ExtensionLoader - Initializing Launch browsers proxying through ZAP
+2020-04-10 02:43:49,190 [ZAP-daemon] INFO  ExtensionLoader - Initializing The Online menu links
+2020-04-10 02:43:49,190 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz WebSocket messages.
+2020-04-10 02:43:49,191 [ZAP-daemon] INFO  ExtensionLoader - Initializing Easy way to replace strings in requests and responses
+2020-04-10 02:43:49,192 [ZAP-daemon] INFO  ExtensionLoader - Initializing The ZAP Getting Started Guide
+2020-04-10 02:43:49,193 [ZAP-daemon] WARN  ExtensionAutoUpdate - This ZAP installation is over a year old - its probably very out of date
+2020-04-10 02:43:49,597 [ZAP-daemon] INFO  ExtensionCallback - Started callback server on 0.0.0.0:37159
+2020-04-10 02:43:50,044 [ZAP-daemon] INFO  DaemonBootstrap - ZAP is now listening on localhost:36935
+2020-04-10 02:54:21,632 [ZAP-ProxyThread-7] WARN  API - Bad request to API endpoint [/JSON/spider/action/scan/] from [127.0.0.1]:
+The provided url is not in the required context (url_not_in_context) : url
+	at org.zaproxy.zap.extension.spider.SpiderAPI.scanURL(SpiderAPI.java:455)
+	at org.zaproxy.zap.extension.spider.SpiderAPI.handleApiAction(SpiderAPI.java:225)
+	at org.zaproxy.zap.extension.api.API.handleApiRequest(API.java:431)
+	at org.parosproxy.paros.core.proxy.ProxyThread.processHttp(ProxyThread.java:456)
+	at org.parosproxy.paros.core.proxy.ProxyThread.run(ProxyThread.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-10 02:54:21,654 [ZAP-ProxyThread-8] WARN  API - Bad request to API endpoint [/JSON/spider/view/status/] from [127.0.0.1]:
+Does Not Exist (does_not_exist) : scanId
+	at org.zaproxy.zap.extension.spider.SpiderAPI.getSpiderScan(SpiderAPI.java:427)
+	at org.zaproxy.zap.extension.spider.SpiderAPI.handleApiView(SpiderAPI.java:533)
+	at org.zaproxy.zap.extension.api.API.handleApiRequest(API.java:467)
+	at org.parosproxy.paros.core.proxy.ProxyThread.processHttp(ProxyThread.java:456)
+	at org.parosproxy.paros.core.proxy.ProxyThread.run(ProxyThread.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-10 03:07:40,961 [main ] INFO  DaemonBootstrap - OWASP ZAP 2.7.0 started 10/04/2020, 03:07:40 with home /root/Apt/APT/APT/zap/
+2020-04-10 03:07:40,983 [main ] INFO  AbstractParam - Setting config dirs = /root/Apt/APT/APT/zap/scripts was /root/Apt/APT/APT/zap/scripts
+2020-04-10 03:07:40,983 [main ] INFO  AbstractParam - Setting config start.checkForUpdates = false was false
+2020-04-10 03:07:40,983 [main ] INFO  AbstractParam - Setting config start.checkForAddonUpdates = false was false
+2020-04-10 03:07:40,983 [main ] INFO  AbstractParam - Setting config newsessionprompt = false was false
+2020-04-10 03:07:40,983 [main ] INFO  AbstractParam - Setting config api.key = MNQ0dYaO2rgFwSnDG6An was 8EpBJsTIjUtN1xBO2lDK
+2020-04-10 03:07:40,986 [main ] INFO  SSLConnector - Reading supported SSL/TLS protocols...
+2020-04-10 03:07:40,986 [main ] INFO  SSLConnector - Using a SSLEngine...
+2020-04-10 03:07:41,044 [main ] INFO  SSLConnector - Done reading supported SSL/TLS protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3]
+2020-04-10 03:07:41,056 [main ] INFO  OptionsParamCertificate - Unsafe SSL renegotiation disabled.
+2020-04-10 03:07:41,270 [main ] INFO  ENGINE - open start - state not modified
+2020-04-10 03:07:41,391 [main ] INFO  ENGINE - dataFileCache open start
+2020-04-10 03:07:41,396 [main ] INFO  ENGINE - dataFileCache open end
+2020-04-10 03:07:41,483 [ZAP-daemon] INFO  ExtensionFactory - Loading extensions
+2020-04-10 03:07:42,212 [ZAP-daemon] INFO  ExtensionFactory - Installed add-ons: [[id=alertFilters, version=6.0.0], [id=ascanrules, version=28.0.0], [id=bruteforce, version=7.0.0], [id=coreLang, version=12.0.0], [id=diff, version=8.0.0], [id=directorylistv1, version=3.0.0], [id=fuzz, version=10.0.0], [id=gettingStarted, version=8.0.0], [id=help, version=8.0.0], [id=importurls, version=5.0.0], [id=invoke, version=8.0.0], [id=jxbrowser, version=7.0.0], [id=jxbrowserlinux64, version=5.0.0], [id=onlineMenu, version=6.0.0], [id=pscanrules, version=21.0.0], [id=quickstart, version=22.0.0], [id=replacer, version=4.0.0], [id=reveal, version=2.0.0], [id=saverawmessage, version=4.0.0], [id=scripts, version=22.0.0], [id=selenium, version=13.0.0], [id=spiderAjax, version=20.0.0], [id=tips, version=6.0.0], [id=webdriverlinux, version=4.0.0], [id=websocket, version=14.0.0], [id=zest, version=26.0.0]]
+2020-04-10 03:07:42,691 [ZAP-daemon] INFO  ExtensionFactory - Extensions loaded
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Change user agent to other browsers. 
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect insecure or potentially malicious content in HTTP responses.
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Detect and alert 'Set-cookie' attempt in HTTP response for modification.
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Avoid browser cache (strip off IfModifiedSince)
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Log cookies sent by browser.
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique GET queries into file:filter/get.xls
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Log unique POST queries into file:  filter/post.xls
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Log request and response into file: filter/message.txt
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request body using defined pattern.
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP request header using defined pattern.
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response body using defined pattern.
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Replace HTTP response header using defined pattern.
+2020-04-10 03:07:42,878 [ZAP-daemon] INFO  FilterFactory - loaded filter Send ZAP session request ID
+2020-04-10 03:07:42,975 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows ZAP to check for updates
+2020-04-10 03:07:42,980 [ZAP-daemon] INFO  ExtensionLoader - Initializing Options Extension
+2020-04-10 03:07:42,980 [ZAP-daemon] INFO  ExtensionLoader - Initializing Edit Menu Extension
+2020-04-10 03:07:42,980 [ZAP-daemon] INFO  ExtensionLoader - Initializing Filter Extension
+2020-04-10 03:07:42,980 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a rest based API for controlling and accessing ZAP
+2020-04-10 03:07:43,012 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session State Extension
+2020-04-10 03:07:43,012 [ZAP-daemon] INFO  ExtensionLoader - Initializing Report Extension
+2020-04-10 03:07:43,012 [ZAP-daemon] INFO  ExtensionLoader - Initializing History Extension
+2020-04-10 03:07:43,013 [ZAP-daemon] INFO  ExtensionLoader - Initializing Show hidden fields and enable disabled fields
+2020-04-10 03:07:43,013 [ZAP-daemon] INFO  ExtensionLoader - Initializing Search messages for strings and regular expressions
+2020-04-10 03:07:43,014 [ZAP-daemon] INFO  ExtensionLoader - Initializing Encode/Decode/Hash...
+2020-04-10 03:07:43,014 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to intercept and modify requests and responses
+2020-04-10 03:07:43,014 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive scanner
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Script Passive Scan Rules
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Stats Passive Scan Rule
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Application Error Disclosure
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Incomplete or No Cache-control and Pragma HTTP Header Set
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Content-Type Header Missing
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie No HttpOnly Flag
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cookie Without Secure Flag
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Cross-Domain JavaScript Source File Inclusion
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Web Browser XSS Protection Not Enabled
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Secure Pages Include Mixed Content
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Password Autocomplete in Browser
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Private IP Disclosure
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: Session ID in URL Rewrite
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Content-Type-Options Header Missing
+2020-04-10 03:07:43,042 [ZAP-daemon] INFO  ExtensionPassiveScan - loaded passive scan rule: X-Frame-Options Header Scanner
+2020-04-10 03:07:43,049 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to view and manage alerts
+2020-04-10 03:07:43,050 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active scanner, heavily based on the original Paros active scanner, but with additional tests added
+2020-04-10 03:07:43,053 [ZAP-daemon] INFO  ExtensionLoader - Initializing Spider used for automatically finding URIs on a site
+2020-04-10 03:07:43,055 [ZAP-daemon] INFO  ExtensionLoader - Initializing A set of common popup menus for miscellaneous tasks
+2020-04-10 03:07:43,056 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced browsing of files and directories using code from the OWASP DirBuster tool
+2020-04-10 03:07:43,056 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manual Request Editor Extension
+2020-04-10 03:07:43,056 [ZAP-daemon] INFO  ExtensionLoader - Initializing Compares 2 sessions and generates an HTML file showing the differences
+2020-04-10 03:07:43,056 [ZAP-daemon] INFO  ExtensionLoader - Initializing Invoke external applications passing context related information such as URLs and parameters
+2020-04-10 03:07:43,056 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles anti cross site request forgery (CSRF) tokens
+2020-04-10 03:07:43,057 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authentication Extension
+2020-04-10 03:07:43,069 [ZAP-daemon] INFO  ExtensionAuthentication - Loaded authentication method types: [Form-based Authentication, HTTP/NTLM Authentication, Manual Authentication, Script-based Authentication]
+2020-04-10 03:07:43,070 [ZAP-daemon] INFO  ExtensionLoader - Initializing Creates a dynamic SSL certificate to allow SSL communications to be intercepted without warnings being generated by the browser
+2020-04-10 03:07:43,207 [ZAP-daemon] INFO  ExtensionLoader - Initializing Logs errors to the Output tab in development mode only
+2020-04-10 03:07:43,207 [ZAP-daemon] INFO  ExtensionLoader - Initializing Users Extension
+2020-04-10 03:07:43,208 [ZAP-daemon] INFO  ExtensionLoader - Initializing Summarise and analyse FORM and URL parameters as well as cookies
+2020-04-10 03:07:43,209 [ZAP-daemon] INFO  ExtensionLoader - Initializing Script integration
+2020-04-10 03:07:43,219 [ZAP-daemon] INFO  ExtensionLoader - Initializing Scripting console, supports all JSR 223 scripting languages
+2020-04-10 03:07:43,219 [ZAP-daemon] INFO  ExtensionLoader - Initializing Forced User Extension
+2020-04-10 03:07:43,219 [ZAP-daemon] INFO  ExtensionLoader - Initializing Extension handling HTTP sessions
+2020-04-10 03:07:43,220 [ZAP-daemon] INFO  ExtensionLoader - Initializing Zest is a specialized scripting language from Mozilla specifically designed to be used in security tools
+2020-04-10 03:07:43,317 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionDiff
+2020-04-10 03:07:43,317 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Post Table View Extension
+2020-04-10 03:07:43,317 [ZAP-daemon] INFO  ExtensionLoader - Initializing Session Management Extension
+2020-04-10 03:07:43,319 [ZAP-daemon] INFO  ExtensionSessionManagement - Loaded session management method types: [Cookie-based Session Management, HTTP Authentication Session Management]
+2020-04-10 03:07:43,319 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Form Table View Extension
+2020-04-10 03:07:43,319 [ZAP-daemon] INFO  ExtensionLoader - Initializing Capture messages from WebSockets with the ability to set breakpoints.
+2020-04-10 03:07:43,346 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to import a file containing URLs which ZAP will access, adding them to the Sites tree
+2020-04-10 03:07:43,346 [ZAP-daemon] INFO  ExtensionLoader - Initializing Core UI related functionality.
+2020-04-10 03:07:43,347 [ZAP-daemon] INFO  ExtensionLoader - Initializing Authorization Extension
+2020-04-10 03:07:43,352 [ZAP-daemon] INFO  ExtensionLoader - Initializing AJAX Spider, uses Crawljax
+2020-04-10 03:07:43,354 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides WebDrivers to control several browsers using Selenium and includes HtmlUnit browser.
+2020-04-10 03:07:43,360 [ZAP-daemon] INFO  ExtensionLoader - Initializing Manages the local proxy configurations
+2020-04-10 03:07:43,361 [ZAP-daemon] INFO  ExtensionLoader - Initializing Handles adding Global Excluded URLs
+2020-04-10 03:07:43,362 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds menu item to refresh the Sites tree
+2020-04-10 03:07:43,363 [ZAP-daemon] INFO  ExtensionLoader - Initializing Adds support for configurable keyboard shortcuts for all of the ZAP menus.
+2020-04-10 03:07:43,363 [ZAP-daemon] INFO  ExtensionLoader - Initializing OWASP ZAP User Guide
+2020-04-10 03:07:43,364 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides a URL suitable for calling from target sites
+2020-04-10 03:07:43,367 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows you to configure which extensions are loaded when ZAP starts
+2020-04-10 03:07:43,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing Combined HTTP Panels Extension
+2020-04-10 03:07:43,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Hex View Extension
+2020-04-10 03:07:43,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Image View Extension
+2020-04-10 03:07:43,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Request View Extension
+2020-04-10 03:07:43,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Large Response View Extension
+2020-04-10 03:07:43,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Query Table View Extension
+2020-04-10 03:07:43,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing HTTP Panel Syntax Highlighter View Extension
+2020-04-10 03:07:43,368 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active and passive rule configuration
+2020-04-10 03:07:43,370 [ZAP-daemon] INFO  ExtensionLoader - Initializing Statistics
+2020-04-10 03:07:43,371 [ZAP-daemon] INFO  ExtensionStats - Start recording in memory stats
+2020-04-10 03:07:43,374 [ZAP-daemon] INFO  ExtensionLoader - Initializing Active Scan Rules
+2020-04-10 03:07:43,374 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionSaveRawHttpMessage
+2020-04-10 03:07:43,374 [ZAP-daemon] INFO  ExtensionLoader - Initializing Context alert rules filter
+2020-04-10 03:07:43,376 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowserLinux64
+2020-04-10 03:07:43,376 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtSelJxBrowserLinux64
+2020-04-10 03:07:43,381 [ZAP-daemon] INFO  ExtensionLoader - Initializing Passive Scan Rules
+2020-04-10 03:07:43,381 [ZAP-daemon] INFO  ExtensionLoader - Initializing Translations of the core language files
+2020-04-10 03:07:43,381 [ZAP-daemon] INFO  ExtensionLoader - Initializing Tips and Tricks
+2020-04-10 03:07:43,381 [ZAP-daemon] INFO  ExtensionLoader - Initializing Provides the foundation for concrete message types (for example, HTTP, WebSockets) expose fuzzer implementations.
+2020-04-10 03:07:43,382 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz HTTP messages.
+2020-04-10 03:07:43,383 [ZAP-daemon] INFO  ExtensionLoader - Initializing ExtensionJxBrowser
+2020-04-10 03:07:43,383 [ZAP-daemon] INFO  ExtensionLoader - Initializing Quick Start panel 
+2020-04-10 03:07:43,383 [ZAP-daemon] INFO  ExtensionLoader - Initializing Launch browsers proxying through ZAP
+2020-04-10 03:07:43,385 [ZAP-daemon] INFO  ExtensionLoader - Initializing The Online menu links
+2020-04-10 03:07:43,385 [ZAP-daemon] INFO  ExtensionLoader - Initializing Allows to fuzz WebSocket messages.
+2020-04-10 03:07:43,385 [ZAP-daemon] INFO  ExtensionLoader - Initializing Easy way to replace strings in requests and responses
+2020-04-10 03:07:43,388 [ZAP-daemon] INFO  ExtensionLoader - Initializing The ZAP Getting Started Guide
+2020-04-10 03:07:43,389 [ZAP-daemon] WARN  ExtensionAutoUpdate - This ZAP installation is over a year old - its probably very out of date
+2020-04-10 03:07:43,788 [ZAP-daemon] INFO  ExtensionCallback - Started callback server on 0.0.0.0:38387
+2020-04-10 03:07:43,954 [ZAP-daemon] INFO  DaemonBootstrap - ZAP is now listening on localhost:47085
+2020-04-10 03:10:52,174 [ZAP-SpiderInitThread-0] INFO  SpiderThread - Starting spidering scan on Context: ADAPT Context at Fri Apr 10 03:10:52 EDT 2020
+2020-04-10 03:10:52,178 [ZAP-SpiderInitThread-0] INFO  Spider - Spider initializing...
+2020-04-10 03:10:52,228 [ZAP-SpiderInitThread-0] INFO  Spider - Starting spider...
+2020-04-10 03:10:54,544 [ZAP-SpiderThreadPool-0-thread-2] INFO  Spider - Spidering process is complete. Shutting down...
+2020-04-10 03:10:54,546 [ZAP-SpiderShutdownThread-0] INFO  SpiderThread - Spider scanning complete: true
+2020-04-10 03:10:59,360 [ZAP-ProxyThread-22] INFO  Scanner - scanner started
+2020-04-10 03:10:59,371 [Thread-8] INFO  HostProcess - Scanning 2 node(s) from https://sit2-consumerism-avmed.healthcare.nttdataservices.com
+2020-04-10 03:10:59,371 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestPathTraversal strength MEDIUM threshold MEDIUM
+2020-04-10 03:12:08,386 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestPathTraversal in 69.015s with 144 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:12:08,387 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestRemoteFileInclude strength MEDIUM threshold MEDIUM
+2020-04-10 03:12:46,408 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestRemoteFileInclude in 38.021s with 80 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:12:46,409 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestServerSideInclude strength MEDIUM threshold MEDIUM
+2020-04-10 03:12:55,585 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestServerSideInclude in 9.176s with 32 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:12:55,585 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestCrossSiteScriptV2 strength MEDIUM threshold MEDIUM
+2020-04-10 03:13:05,437 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestCrossSiteScriptV2 in 9.852s with 25 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:13:05,437 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestPersistentXSSPrime strength MEDIUM threshold MEDIUM
+2020-04-10 03:13:07,857 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestPersistentXSSPrime in 2.42s with 8 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:13:07,857 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestPersistentXSSSpider strength MEDIUM threshold MEDIUM
+2020-04-10 03:13:08,229 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestPersistentXSSSpider in 0.372s with 2 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:13:08,229 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestPersistentXSSAttack strength MEDIUM threshold MEDIUM
+2020-04-10 03:13:08,236 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestPersistentXSSAttack in 0.007s with 0 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:13:08,236 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestSQLInjection strength MEDIUM threshold MEDIUM
+2020-04-10 03:14:12,711 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestSQLInjection in 64.475s with 196 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:14:12,712 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | CodeInjectionPlugin strength MEDIUM threshold MEDIUM
+2020-04-10 03:14:33,629 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | CodeInjectionPlugin in 20.917s with 64 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:14:33,629 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | CommandInjectionPlugin strength MEDIUM threshold MEDIUM
+2020-04-10 03:15:53,507 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | CommandInjectionPlugin in 79.878s with 256 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:15:53,507 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestDirectoryBrowsing strength MEDIUM threshold MEDIUM
+2020-04-10 03:15:54,165 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestDirectoryBrowsing in 0.658s with 2 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:15:54,165 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestExternalRedirect strength MEDIUM threshold MEDIUM
+2020-04-10 03:16:15,637 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestExternalRedirect in 21.472s with 72 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:16:15,638 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | BufferOverflow strength MEDIUM threshold MEDIUM
+2020-04-10 03:16:21,276 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | BufferOverflow in 5.638s with 8 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:16:21,276 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | FormatString strength MEDIUM threshold MEDIUM
+2020-04-10 03:16:35,464 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | FormatString in 14.188s with 24 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:16:35,465 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestInjectionCRLF strength MEDIUM threshold MEDIUM
+2020-04-10 03:16:52,879 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestInjectionCRLF in 17.414s with 56 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:16:52,880 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestParameterTamper strength MEDIUM threshold MEDIUM
+2020-04-10 03:17:23,761 [Thread-8] INFO  HostProcess - completed host/plugin https://sit2-consumerism-avmed.healthcare.nttdataservices.com | TestParameterTamper in 30.881s with 56 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:17:23,761 [Thread-8] INFO  HostProcess - start host https://sit2-consumerism-avmed.healthcare.nttdataservices.com | ScriptsActiveScanner strength MEDIUM threshold MEDIUM
+2020-04-10 03:17:23,763 [Thread-8] INFO  HostProcess - skipped plugin [no scripts enabled] https://sit2-consumerism-avmed.healthcare.nttdataservices.com | ScriptsActiveScanner in 0.002s with 0 message(s) sent and 0 alert(s) raised.
+2020-04-10 03:17:23,764 [Thread-8] INFO  HostProcess - completed host https://sit2-consumerism-avmed.healthcare.nttdataservices.com in 384.396s
+2020-04-10 03:17:23,764 [Thread-7] INFO  Scanner - scanner completed in 384.404s
+2020-04-10 03:22:07,016 [ZAP-ProxyThread-233] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/en/agent within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:22:58,548 [ZAP-ProxyThread-234] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,388 [ZAP-ProxyThread-238] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099.txt within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,389 [ZAP-ProxyThread-240] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099.htm within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,391 [ZAP-ProxyThread-236] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099.asp within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,399 [ZAP-ProxyThread-237] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,399 [ZAP-ProxyThread-242] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099.old within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,399 [ZAP-ProxyThread-235] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099 within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,399 [ZAP-ProxyThread-241] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099.html within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,400 [ZAP-ProxyThread-243] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099.zip within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:19,400 [ZAP-ProxyThread-244] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random/dir/name/123123/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:23:39,494 [ZAP-ProxyThread-246] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/%7C~.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:24:10,939 [ZAP-ProxyThread-245] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random/dir/name/123123 within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:01,019 [ZAP-ProxyThread-239] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/random_file_name_14123432099.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:21,354 [ZAP-ProxyThread-247] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/pt/blog/default.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:21,355 [ZAP-ProxyThread-254] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/index.php/admin/index/forgotpassword/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:21,364 [ZAP-ProxyThread-255] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/App_Themes/Default/Styles/system.css within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:21,365 [ZAP-ProxyThread-252] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/roundcube within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:41,395 [ZAP-ProxyThread-258] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/admui/help/en/ChangedPages.htm within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:41,419 [ZAP-ProxyThread-260] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/admui/report/default.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:52,724 [ZAP-ProxyThread-253] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/mail/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:52,735 [ZAP-ProxyThread-250] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/_layouts/MyInfo.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:52,736 [ZAP-ProxyThread-256] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/admui/javascript/resizewindows.js within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:26:52,737 [ZAP-ProxyThread-249] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/_layouts/none.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:27:12,765 [ZAP-ProxyThread-264] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/user within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:27:12,787 [ZAP-ProxyThread-265] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/admin within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:27:12,944 [ZAP-ProxyThread-257] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/admui/javascript/edit.js within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:27:12,959 [ZAP-ProxyThread-259] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/admui/help/en/Start.htm within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:27:26,019 [ZAP-ProxyThread-251] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/_layouts/create.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:27:33,195 [ZAP-ProxyThread-262] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/update.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:28:06,965 [ZAP-ProxyThread-261] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/util/login.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:28:17,199 [ZAP-ProxyThread-266] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/none_existing_page_123 within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:28:17,200 [ZAP-ProxyThread-263] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/install.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:28:31,841 [ZAP-ProxyThread-248] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/_layouts/settings.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:28:51,996 [ZAP-ProxyThread-274] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/typo3conf/ext/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:28:51,996 [ZAP-ProxyThread-276] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/sitecore/admin/cache.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:12,287 [ZAP-ProxyThread-278] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/sitecore/login/passwordrecovery.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:23,522 [ZAP-ProxyThread-269] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/umbraco/channels/wlwmanifest.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:23,523 [ZAP-ProxyThread-272] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/umbraco/webService.asmx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:23,523 [ZAP-ProxyThread-275] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/sitecore/admin/showconfig.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:23,524 [ZAP-ProxyThread-268] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/umbraco/channels/rsd.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:23,526 [ZAP-ProxyThread-270] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/umbraco/dialogs/empty.htm within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:43,827 [ZAP-ProxyThread-281] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/phpmyadmin/setup/index.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:43,828 [ZAP-ProxyThread-280] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/owa/auth/logon.aspx?url=https://google.com&reason=0 within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:43,843 [ZAP-ProxyThread-284] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/phpmyadmin/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:43,844 [ZAP-ProxyThread-283] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/pma/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:43,855 [ZAP-ProxyThread-282] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/exchweb/bin/auth/owalogon.asp within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:44,010 [ZAP-ProxyThread-277] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/sitecore/admin/unlock_admin.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:57,585 [ZAP-ProxyThread-271] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/umbraco/ping.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:57,586 [ZAP-ProxyThread-267] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/umbraco/channels.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:29:57,587 [ZAP-ProxyThread-273] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/umbraco/login.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:30:36,465 [ZAP-ProxyThread-279] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/sitecore/shell/webservice/service.asmx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:30:56,850 [ZAP-ProxyThread-287] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/admin/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:30:56,851 [ZAP-ProxyThread-293] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/NEWS.txt within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:30:56,855 [ZAP-ProxyThread-292] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/RELEASE_NOTES.txt within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:30:56,856 [ZAP-ProxyThread-285] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/wp-login.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:30:56,857 [ZAP-ProxyThread-289] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/_layouts/help.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:30:56,859 [ZAP-ProxyThread-286] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/admin/login/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:30:56,856 [ZAP-ProxyThread-291] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/CHANGELOG.txt within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:16,906 [ZAP-ProxyThread-296] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/src/login.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:16,907 [ZAP-ProxyThread-298] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/typo3/sysext/version/ChangeLog within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:16,907 [ZAP-ProxyThread-297] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/mail/src/login.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:16,915 [ZAP-ProxyThread-301] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/typo3conf/ext/phpmyadmin/ChangeLog.txt within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:16,915 [ZAP-ProxyThread-300] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/Admin/access/default.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:16,920 [ZAP-ProxyThread-295] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/sitecore/login/default.aspx within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:28,181 [ZAP-ProxyThread-288] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/test.htm within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:37,207 [ZAP-ProxyThread-304] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/phpmyadmin/translators.html within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:31:37,207 [ZAP-ProxyThread-303] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/phpmyadmin/README within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:00,452 [ZAP-ProxyThread-290] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/administrator within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:00,453 [ZAP-ProxyThread-294] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/ChangeLog within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:08,632 [ZAP-ProxyThread-302] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/phpmyadmin/js/messages.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:20,934 [ZAP-ProxyThread-299] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/sitecore/shell/sitecore.version.xml within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:41,229 [ZAP-ProxyThread-308] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/feed/atom/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:41,229 [ZAP-ProxyThread-313] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/index.php?format=feed&type=rss within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:41,238 [ZAP-ProxyThread-310] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/feed/rss.html within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:41,241 [ZAP-ProxyThread-314] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/test.php within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:32:41,242 [ZAP-ProxyThread-312] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/index.php?format=feed&type=atom within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:01,265 [ZAP-ProxyThread-315] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/DotNetNuke.ico within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:01,266 [ZAP-ProxyThread-316] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/themes/default/css/global.css within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:01,286 [ZAP-ProxyThread-317] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/js/admin.js within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:01,289 [ZAP-ProxyThread-319] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/js/price.js within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:12,640 [ZAP-ProxyThread-311] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/VERSION within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:12,640 [ZAP-ProxyThread-309] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/feed/ within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:12,642 [ZAP-ProxyThread-306] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/phpmyadmin/Documentation.txt within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:21,561 [ZAP-ProxyThread-320] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/js/admin-dnd.js within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:21,563 [ZAP-ProxyThread-321] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/img/logo.jpg within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:21,564 [ZAP-ProxyThread-322] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/pt/themes/default/Style.css within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.
+2020-04-10 03:33:21,563 [ZAP-ProxyThread-323] WARN  ProxyThread - Failed to read http://sit2-consumerism-avmed.healthcare.nttdataservices.com/pt/themes/default/images/link.gif within 20 seconds, check to see if the site is available and if so consider adjusting ZAP's read time out in the Connection options panel.

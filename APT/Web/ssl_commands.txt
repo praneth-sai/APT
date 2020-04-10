@@ -1,0 +1,3 @@
+Nmap SSL Scan: nmap --script "ssl*" [url]
+SSL Scan: sslscan --no-failed [url]
+Sslyze: sslyze --regular [url]

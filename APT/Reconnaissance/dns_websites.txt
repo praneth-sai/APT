@@ -1,0 +1,2 @@
+
+http://www.dnsstuff.com/tools#dnsReport|type=domain&&value=[domain]

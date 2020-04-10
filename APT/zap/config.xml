@@ -1,0 +1,4630 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <version>2005000</version>
+    <userDir/>
+    <connection>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <proxyChain>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <hostName/>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <port>8080</port>
+                                                                                                                        			
+            
+            			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <realm/>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <userName/>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <password/>
+                                                                                                                        		
+			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <prompt>false</prompt>
+                                                                                                                        		
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>false</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </proxyChain>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <auth/>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <securityProtocolsEnabled>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <protocol>SSLv3</protocol>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <protocol>TLSv1</protocol>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <protocol>TLSv1.1</protocol>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <protocol>TLSv1.2</protocol>
+                                                                                                                        		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </securityProtocolsEnabled>
+                                                                                	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </connection>
+    <proxy>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <ip>localhost</ip>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <port>59915</port>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <reverseProxy>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <use>0</use>
+                                                                                                                        	
+			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <ip>localhost</ip>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <httpPort>80</httpPort>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <httpsPort>443</httpsPort>
+                                                                                                                        		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </reverseProxy>
+                                                                                		
+		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <securityProtocolsEnabled>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <protocol>SSLv3</protocol>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <protocol>TLSv1</protocol>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <protocol>TLSv1.1</protocol>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <protocol>TLSv1.2</protocol>
+                                                                                                                        		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </securityProtocolsEnabled>
+                                                                                	
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <removeUnsupportedEncodings>true</removeUnsupportedEncodings>
+                                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    </proxy>
+    <view>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <processImages>0</processImages>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <displayOption>1</displayOption>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <editorView>2</editorView>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <brkPanelView>0</brkPanelView>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <showMainToolbar>1</showMainToolbar>
+                                                                                	
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        <locale>en_GB</locale>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <messagePanelsPosition>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <lastSelectedPosition>TABS_SIDE_BY_SIDE</lastSelectedPosition>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </messagePanelsPosition>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <main>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <request>
+                                                                                                                                                
+                
+                
+                
+                
+                
+                
+                
+                <httppanel>
+                                                                                                                                                                                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <defaultcomponent>RequestSplit</defaultcomponent>
+                                                                                                                                                                                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <components>
+                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <dividerLocation>-1</dividerLocation>
+                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <split>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <header>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <defaultview>HttpRequestHeaderSyntaxTextView</defaultview>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <views>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <aa>true</aa>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <linenumbers>false</linenumbers>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <wordwrap>true</wordwrap>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <highlightline>false</highlightline>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <fadehighlightline>false</fadehighlightline>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <whitespaces>false</whitespaces>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <newlines>false</newlines>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <markocurrences>false</markocurrences>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <roundedselection>false</roundedselection>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <bracketmatch>false</bracketmatch>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <animatedbracketmatch>false</animatedbracketmatch>
+                                                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    </HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </views>
+                                                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </header>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <body>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <defaultview>HttpRequestBodySyntaxTextView</defaultview>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <views>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <aa>true</aa>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <linenumbers>false</linenumbers>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <codefolding>false</codefolding>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <wordwrap>true</wordwrap>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <highlightline>false</highlightline>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <fadehighlightline>false</fadehighlightline>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <whitespaces>false</whitespaces>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <newlines>false</newlines>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <markocurrences>false</markocurrences>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <roundedselection>false</roundedselection>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <bracketmatch>false</bracketmatch>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <animatedbracketmatch>false</animatedbracketmatch>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <syntax>
+                                                                                                                                                                                                                                                                                                                                                                                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <autodetect>true</autodetect>
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        </syntax>
+                                                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    </HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </views>
+                                                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </body>
+                                                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </split>
+                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <all>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <defaultview>HttpRequestSyntaxTextView</defaultview>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <views>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <aa>true</aa>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <linenumbers>false</linenumbers>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <wordwrap>true</wordwrap>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <highlightline>false</highlightline>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <fadehighlightline>false</fadehighlightline>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <whitespaces>false</whitespaces>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <newlines>false</newlines>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <markocurrences>false</markocurrences>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <roundedselection>false</roundedselection>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <bracketmatch>false</bracketmatch>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <animatedbracketmatch>false</animatedbracketmatch>
+                                                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </views>
+                                                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </all>
+                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <websocket>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <defaultview>WebSocketSyntaxHighlightTextView</defaultview>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <views>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <aa>true</aa>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <linenumbers>false</linenumbers>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <wordwrap>true</wordwrap>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <highlightline>false</highlightline>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <fadehighlightline>false</fadehighlightline>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <whitespaces>false</whitespaces>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <newlines>false</newlines>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <markocurrences>false</markocurrences>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <roundedselection>false</roundedselection>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <bracketmatch>false</bracketmatch>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <animatedbracketmatch>false</animatedbracketmatch>
+                                                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </views>
+                                                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </websocket>
+                                                                                                                                                                                                                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </components>
+                                                                                                                                                                                
+                
+                
+                
+                
+                
+                
+                
+                </httppanel>
+                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            </request>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <response>
+                                                                                                                                                
+                
+                
+                
+                
+                
+                
+                
+                <httppanel>
+                                                                                                                                                                                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <defaultcomponent>ResponseSplit</defaultcomponent>
+                                                                                                                                                                                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <components>
+                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <all>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <defaultview>HttpPanelSyntaxHighlightTextView</defaultview>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <views>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <aa>true</aa>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <linenumbers>false</linenumbers>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <wordwrap>true</wordwrap>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <highlightline>false</highlightline>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <fadehighlightline>false</fadehighlightline>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <whitespaces>false</whitespaces>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <newlines>false</newlines>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <markocurrences>false</markocurrences>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <roundedselection>false</roundedselection>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <bracketmatch>false</bracketmatch>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <animatedbracketmatch>false</animatedbracketmatch>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <syntax>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <autodetect>true</autodetect>
+                                                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    </syntax>
+                                                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </views>
+                                                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </all>
+                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <websocket>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <defaultview>WebSocketSyntaxHighlightTextView</defaultview>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <views>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <aa>true</aa>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <linenumbers>false</linenumbers>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <wordwrap>true</wordwrap>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <highlightline>false</highlightline>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <fadehighlightline>false</fadehighlightline>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <whitespaces>false</whitespaces>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <newlines>false</newlines>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <markocurrences>false</markocurrences>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <roundedselection>false</roundedselection>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <bracketmatch>false</bracketmatch>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <animatedbracketmatch>false</animatedbracketmatch>
+                                                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </views>
+                                                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </websocket>
+                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <dividerLocation>-1</dividerLocation>
+                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <split>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <header>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <defaultview>HttpPanelSyntaxHighlightTextView</defaultview>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <views>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <aa>true</aa>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <linenumbers>false</linenumbers>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <wordwrap>true</wordwrap>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <highlightline>false</highlightline>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <fadehighlightline>false</fadehighlightline>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <whitespaces>false</whitespaces>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <newlines>false</newlines>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <markocurrences>false</markocurrences>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <roundedselection>false</roundedselection>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <bracketmatch>false</bracketmatch>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <animatedbracketmatch>false</animatedbracketmatch>
+                                                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    </HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </views>
+                                                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </header>
+                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <body>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <defaultview>HttpPanelSyntaxHighlightTextView</defaultview>
+                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <views>
+                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <aa>true</aa>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <linenumbers>false</linenumbers>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <codefolding>false</codefolding>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <wordwrap>true</wordwrap>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <highlightline>false</highlightline>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <fadehighlightline>false</fadehighlightline>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <whitespaces>false</whitespaces>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <newlines>false</newlines>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <markocurrences>false</markocurrences>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <roundedselection>false</roundedselection>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <bracketmatch>false</bracketmatch>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <animatedbracketmatch>false</animatedbracketmatch>
+                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <syntax>
+                                                                                                                                                                                                                                                                                                                                                                                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <autodetect>true</autodetect>
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        </syntax>
+                                                                                                                                                                                                                                                                                                                                                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    </HttpPanelSyntaxHighlightTextView>
+                                                                                                                                                                                                                                                                                                                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                </views>
+                                                                                                                                                                                                                                                                                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            </body>
+                                                                                                                                                                                                                                                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </split>
+                                                                                                                                                                                                                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </components>
+                                                                                                                                                                                
+                
+                
+                
+                
+                
+                
+                
+                </httppanel>
+                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            </response>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </main>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </view>
+    <start>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <checkForUpdates>false</checkForUpdates>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <checkAddonUpdates>true</checkAddonUpdates>
+                                                                                	
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        <checkForAddonUpdates>false</checkForAddonUpdates>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </start>
+    <certificate>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <use>0</use>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <clientCertLocation/>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <experimentalSlotListIndex>false</experimentalSlotListIndex>
+                                                                                	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </certificate>
+    <spider>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <thread>2</thread>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <maxDepth>5</maxDepth>
+                                                                                		
+        
+        		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <postform>true</postform>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <processform>true</processform>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <sendCookies>false</sendCookies>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <skipurl/>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <requestwait>200</requestwait>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <parseComments>true</parseComments>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <parseRobotsTxt>true</parseRobotsTxt>
+                                                                                	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </spider>
+    <scanner>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <hostPerScan>2</hostPerScan>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <threadPerHost>2</threadPerHost>
+                                                                                	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </scanner>
+    <portscan>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <threadPerHost>5</threadPerHost>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <maxPort>10240</maxPort>
+                                                                                	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </portscan>
+    <pscans>
+                                                                                		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <autoTagScanners>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_tag_form</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Form</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>&lt;form</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_tag_password</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Password</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>&lt;password\s</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_type_password</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Password</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>type\s*=\s*['"]?password['"]?</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_type_hidden</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Hidden</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>type\s*=\s*['"]?hidden['"]?</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_type_upload</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Upload</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>type\s*=\s*['"]?file['"]?</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_tag_object</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Object</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>&lt;object\s</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_tag_script</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Script</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>&lt;script</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_mailto</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>MailTo</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>&lt;.*href\s*['"]?mailto:</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_setcookie</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>SetCookie</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex>set-cookie</resHeadRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_comment1</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Comment</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>/\*</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>html_comment2</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>Comment</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex>&lt;!--</resBodyRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <scanner>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <name>response_json</name>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <type>TAG</type>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <config>JSON</config>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqUrlRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <reqHeadRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resHeadRegex>type\s*:\s*application\/json</resHeadRegex>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <resBodyRegex/>
+                                                                                                                                                                				
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <enabled>true</enabled>
+                                                                                                                                                                			
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </scanner>
+                                                                                                                        		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </autoTagScanners>
+                                                                                	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </pscans>
+    <addons>
+                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        <block/>
+                                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    </addons>
+    <dirs>/root/Apt/APT/APT/zap/scripts</dirs>
+    <newsessionprompt>false</newsessionprompt>
+    <api>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <key>MNQ0dYaO2rgFwSnDG6An</key>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </api>
+    <reveal version="1">
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <enabled>false</enabled>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </reveal>
+    <ajaxSpider version="3"/>
+    <selenium version="1">
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <chromeDriver>/root/Documents/pat-master/PAT/zap/webdriver/linux/64/chromedriver</chromeDriver>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <firefoxDriver>/root/Documents/pat-master/PAT/zap/webdriver/linux/64/geckodriver</firefoxDriver>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </selenium>
+    <rules>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <common>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <sleep>15</sleep>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </common>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <csrf>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <ignorelist/>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <ignore>
+                                                                                                                                                
+                
+                
+                
+                
+                
+                
+                
+                <attname/>
+                                                                                                                                                
+                
+                
+                
+                
+                
+                
+                
+                <attvalue/>
+                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            </ignore>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </csrf>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <cookie>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <ignorelist/>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </cookie>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </rules>
+    <fuzz version="1">
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <defaultThreadsPerFuzzer>5</defaultThreadsPerFuzzer>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <defaultCategoryName/>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <defaultFuzzDelayInMs>0</defaultFuzzDelayInMs>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <customFuzzerLastSelectedDirectory/>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </fuzz>
+    <plugins>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p6>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p6>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p7>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p7>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p40009>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p40009>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p40012>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p40012>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p40014>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p40014>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p40018>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p40018>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p90019>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p90019>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p90020>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p90020>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p0>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p0>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p20019>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p20019>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p30001>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p30001>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p30002>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p30002>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p40003>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p40003>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p40008>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p40008>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p40016>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p40016>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p40017>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p40017>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <p50000>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <enabled>true</enabled>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </p50000>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </plugins>
+    <dynssl>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <param>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <rootca>MIIL0QIBAzCCC4oGCSqGSIb3DQEHAaCCC3sEggt3MIILczCCBX8GCSqGSIb3DQEHAaCCBXAEggVsMIIFaDCCBWQGCyqGSIb3DQEMCgECoIIE-zCCBPcwKQYKKoZIhvcNAQwBAzAbBBTDqsBJ4ljnHnj2rDI3RRdubTQueAIDAMNQBIIEyMjPiekPM_qHYJY3tf8k58EndOpHAEZEWjFrULEiKXNju0OIpw_2PaqCgA3YgTMeidgvMz-s7LN-2LArvicXEm9dGE20qmNwIme_K7L3fMrnDcHyQw0bzlpoo6OnANddVtAVjToanyBT3YlA_linQaW7mUdsN8CVi__2dMcA_xvMNBdOn3_xLQJ2k-owAuDXQK73PgSB5G-fn_tOirp9vOJuxiUnkj2_G6K6wvFUcmncPfe8ioT8VeYjPK952f_AhsP8srrmuAXDJJRf4Q7XDOEkgt-i5mj32OuIjKrRlydZNOGsbHtS1ITqpBSrg4wcYS4qGuxRamRQsWKebo_T5PMjnrKA_vfLnuKxC1h6AlvOVibxzvnGFqkoUmjYBDv_kMvXUPQHBjV58uw8IC190L06H2VdK9aJ4INFGnubhlBPKXLvrsW-UH9etFZJCjEbZvkWLqpQ9PAn5DRoGlq6p4BqK0257DdTq4Sxw05LtxCNZcDeiVJgmPN5So8oz9LWMUv-keGuxCPwS_GS22hm8cQAf9zLw-ZZ0JlbYkZ7sS_Qiwf1mOIRlsH9S14mJT5CNWNAliMxbr4CfxvO86hzQ9kDlcdIkwyt18FqTDjZjkNtAdSIeroBEt9UL1zwqyS5OsYTc4EM_ytHP0QPI7IuqbVZb5KbnojhtKD5yP1bo-pqSPhYobTsyyKddeXFW0YvQbEn4mXNFbpbfeqYv23QzoW5Z6mAc4U-4I_Pbhupp8d1GqdH1eVV3uItSiqcXhAH2VVDNRDZKX-tNRoscipj5Yl0irh3_N5ccXPATT1v7DvayF-sGVWG_j3u9Hw2FHk2IqRp6Edsa--zlVrjH4cLzaXKj9-5sFjzFOQGcVXAZogUYHKOxP-p5GAf54G_KYG_uOGtBtdZnJ64V8uxSK3fv8dfYOfniTjevk5ngNLmkmcLor4ORIvHMe8RNoURU2V6XWk7i1Zy1B0yrLs4Ka47yeV6EqhipSG8NVuc6AXB9DkvvSK4lE5akxF1Aa74VErI8CMxIuaC0EEevotDH9aGLTkbUuDpvPSEo3WgcUD7QmYGAuPnsvDq4FJXzWUD9bEEfH93gVz-q-Niq5ltlzwyrC6bloeXBdK9pX7pgAdKmqtHf6YBWGyUb7okSKmBlzx1VyCvUgDoJjgmjFO8f9Aq4KP8R28aop0spC6leNNIsMgArHgxmVI73edAXMVOd0mOXTlnuYagog0huB-XBb8z1GGuBvlhhN-6OU57ainS_4U7Ew-7xQTPbLe82yzCJb3ocQ9DdLx2peQJZh9Juu7n-5vqXvNrreGSgYzDcnr6dM2vIQXxE-2aiLrtbfrG7okNSoSt1vKX-N7MtRVl0E2XneUbQcamKjStuK5thJR34V54hKJqRw5Q_NmxSPP_zmtQay-ftTJ9kCfVDF9U_bjFUd0wyyB_lHZ5WciH2pMoVWtsTYEm8SHCEVheC5Wt2AvfYrUwxbh1d9uwtpkD_2CB8RtFp-nqI-H67Bn5xiMHEW6a-GByvTpgS7d4nHpcrcoOxReTyZS72Vbx07cw3T1gaeNJILccn3WNFhkpIJBx7b3p3kBMKAF2_5qBcxzZoHBJRov_F_uR6Q30GiiOPKx-Nl5zwQlAfcSNuTFWMDEGCSqGSIb3DQEJFDEkHiIAbwB3AGEAcwBwAF8AegBhAHAAXwByAG8AbwB0AF8AYwBhMCEGCSqGSIb3DQEJFTEUBBJUaW1lIDE1NzYwNDE5ODYyNzQwggXsBgkqhkiG9w0BBwagggXdMIIF2QIBADCCBdIGCSqGSIb3DQEHATApBgoqhkiG9w0BDAEGMBsEFB_5n_U8VYYjPfUlMF8-FwA7ZysHAgMAw1CAggWYVsrTq-xLOUzGjChqmwVMaI8IKbbYAqRmTdiqYQWzYZSW1FebK9h2FqShwWsIHUPsJEuHO4UrtlsZMW4YOGbxC0hFdhDcLbhhLjzCCRU9BlZE62Za1pZ7jKaXUWvL1O_PsqH6N9Hcf93QUAOzpW_itCmrgZmS8iKQkv5YYifO9QgAeaYQ8tKmiJYPurqC5vKOyWc-z2l0LeCbINYNAQ-4jJ7afO9990pG2KwI321xDfR6xmBXOk5Lffe8je1z5d0aHtC2E6aulKrYVQxOR67hpLTCygamSXHIJDc7wFi0L-ePuPMbzdTz8FEO42Inx7GmQH72MMoCRijbPddba9vNGqsePdXqQDpQg-g2miMlFe-dLevX4UYVMK_9OW6nQcyNgPC5Q9hr-IWJsCanbBcEa_xDpNwJRbCRHM7W_DEZ5Jpj9QPkzzFMckYWOkcDE36kgSyxiLpjWyhZ739I1OfqMlq1WgSRe1W1l3UxsX_i9xZsao19-JjKEQQzsEnV2ouDZOXw0IG2IgYzgPMykEenh5bp0LZK3MGXptOhS0C3mp-FnT4-jMQmWTqa6qXAXQwMTG5if8-TQHc-NxFXNjJ35OV7flTubfCRQTzGyQgli8BQC-KqKQMDezgHZXIIlVpeT-LJZWpVY1PqFQuWIpHD01httFRmH4uBdzKVU9Q2EZyvooxRBQ8RwoZ6PiwN_xRRaXO4TA7cxTw0CMt7Flc9wWpsW_4ORXfQOqXS-IkKRYRWeOw5OPh94DsQ9EiUsIe32ZQWCsdvKGTK9fNY2E1DB2jJdk-tnCDgjX9Kdp4oDbOJSyDB4buBNOLXnMJ9bqW0C7pPUJIaSyKKVZ1IRCwxxNmLiFlQz_f9hMCgxEFI3NTtXB5sZTyWYx-C1Ntfyh73DF0yV3h4vhonD_AIjJiraHjkXcuLLH2cre7LqQZV7FO4Svv21iDbLAC4tpO-1WBjwVf1HVM4fc_d2z2-462_G__oz-c2isNv6ccVlD6PL1ucWu9FF7LCSYVoaalTUPZ5XctRp4aJRr8iG8rf7Teisva8W5xTvNLdaztNG_aPyGMJAGp4ZyMPhtlM_kWoBPiGlx5YVtNzWzcQKky1TGyl-GZ2qEgVyaEjTUXLGvcWA2c2-TrVpMDm2e2wNWv4YQq0BRyTLNsf-tAaY-RQRZFMbvmaYUCVRES6287iS7JmC35GI7dIzwDgQAp9Zps4ixaWXlGA6U0LswoW0gwCyulvDJ9mvcZRdyKcoKp4NG9u0917QDKVn_Q_2-txUEo-F5lxtkB8y2H9o3JOtRQo5euR6mZHNIHMQucx55_YYG0kKu_AC097axi1gjpeXJ1SZF-R-tiPPYjKxBQNLFbdAuJwyN2K0YqlmgF9C-QDRK6UMADBBlt30vobwJZ1JUsu0h_T6UI1M3vmA9fbPMck5rGO5hMrwRBMexIsBlEs9TBBumqEC1G8j6LlzA5Q4Xy8VIkp8zNOzo7tKY_UZZIQLFdHd8voLtKoFIUeq_GWoqakA8JAGJXwdg8K0cb7zq-xeHqjo44G9lgde6A6ckx2NSTnEpj8XzEH_1G2lx9rgXUdHA6stBSKLICNl7yZl9ejK7ZkBsMW4hz9JXhpgJt165Tra7J_DTJynWHCTPLEw7tIZQStvCSb33KLyx4D9fIhcGnGc-z44TRbjfqmEKmvLzGcxdl3q9Ocu5oQ-9_8rbGXwOiQYIwmkIpf3e9CQ7Cwx91aobNFd7Bhbkv_V-L_4wvUQkcm5IXXxnflRhZvJi2zXkJzNL7POAY2kHSRy68o6viNMTkfFOuciD8MIhKAJj13IJxrHHPz9RTez7ly_qNYme3UPBB7bge3RadE8IriFS9RHU9Sp9Vaavj4H9cqrU77_jYGbgT3dTXiNulk8LkaxalpVPbhrzko0DA-MCEwCQYFKw4DAhoFAAQUtIrz8c8-uNzLTKWxVzS4A1g3YJQEFN6pX4o9wrIUt9B8s90c8SRE3JPhAgMBhqA</rootca>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </param>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </dynssl>
+    <database>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <newsession>3</newsession>
+                                                                        
+        
+        
+        
+        
+        
+        
+        
+        <newsessionprompt>true</newsessionprompt>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    </database>
+    
+    <runnableAddOns>
+        <addon>
+            <id>gettingStarted</id>
+            <fullversion>8.0.0</fullversion>
+            <version>8</version>
+        </addon>
+        <addon>
+            <id>saverawmessage</id>
+            <fullversion>4.0.0</fullversion>
+            <version>4</version>
+        </addon>
+        <addon>
+            <id>coreLang</id>
+            <fullversion>12.0.0</fullversion>
+            <version>12</version>
+        </addon>
+        <addon>
+            <id>webdriverlinux</id>
+            <fullversion>4.0.0</fullversion>
+            <version>4</version>
+        </addon>
+        <addon>
+            <id>quickstart</id>
+            <fullversion>22.0.0</fullversion>
+            <version>22</version>
+            <extensions>
+                <extension>org.zaproxy.zap.extension.quickstart.launch.ExtensionQuickStartLaunch</extension>
+            </extensions>
+        </addon>
+        <addon>
+            <id>onlineMenu</id>
+            <fullversion>6.0.0</fullversion>
+            <version>6</version>
+        </addon>
+        <addon>
+            <id>replacer</id>
+            <fullversion>4.0.0</fullversion>
+            <version>4</version>
+        </addon>
+        <addon>
+            <id>reveal</id>
+            <fullversion>2.0.0</fullversion>
+            <version>2</version>
+        </addon>
+        <addon>
+            <id>zest</id>
+            <fullversion>26.0.0</fullversion>
+            <version>26</version>
+        </addon>
+        <addon>
+            <id>help</id>
+            <fullversion>8.0.0</fullversion>
+            <version>8</version>
+        </addon>
+        <addon>
+            <id>diff</id>
+            <fullversion>8.0.0</fullversion>
+            <version>8</version>
+        </addon>
+        <addon>
+            <id>scripts</id>
+            <fullversion>22.0.0</fullversion>
+            <version>22</version>
+        </addon>
+        <addon>
+            <id>pscanrules</id>
+            <fullversion>21.0.0</fullversion>
+            <version>21</version>
+        </addon>
+        <addon>
+            <id>alertFilters</id>
+            <fullversion>6.0.0</fullversion>
+            <version>6</version>
+        </addon>
+        <addon>
+            <id>tips</id>
+            <fullversion>6.0.0</fullversion>
+            <version>6</version>
+        </addon>
+        <addon>
+            <id>importurls</id>
+            <fullversion>5.0.0</fullversion>
+            <version>5</version>
+        </addon>
+        <addon>
+            <id>ascanrules</id>
+            <fullversion>28.0.0</fullversion>
+            <version>28</version>
+        </addon>
+        <addon>
+            <id>jxbrowserlinux64</id>
+            <fullversion>5.0.0</fullversion>
+            <version>5</version>
+            <extensions>
+                <extension>org.zaproxy.zap.extension.jxbrowserlinux64.selenium.ExtSelJxBrowserLinux64</extension>
+            </extensions>
+        </addon>
+        <addon>
+            <id>invoke</id>
+            <fullversion>8.0.0</fullversion>
+            <version>8</version>
+        </addon>
+        <addon>
+            <id>selenium</id>
+            <fullversion>13.0.0</fullversion>
+            <version>13</version>
+        </addon>
+        <addon>
+            <id>websocket</id>
+            <fullversion>14.0.0</fullversion>
+            <version>14</version>
+            <extensions>
+                <extension>org.zaproxy.zap.extension.websocket.fuzz.ExtensionWebSocketFuzzer</extension>
+            </extensions>
+        </addon>
+        <addon>
+            <id>spiderAjax</id>
+            <fullversion>20.0.0</fullversion>
+            <version>20</version>
+        </addon>
+        <addon>
+            <id>jxbrowser</id>
+            <fullversion>7.0.0</fullversion>
+            <version>7</version>
+        </addon>
+        <addon>
+            <id>bruteforce</id>
+            <fullversion>7.0.0</fullversion>
+            <version>7</version>
+        </addon>
+        <addon>
+            <id>directorylistv1</id>
+            <fullversion>3.0.0</fullversion>
+            <version>3</version>
+        </addon>
+        <addon>
+            <id>fuzz</id>
+            <fullversion>10.0.0</fullversion>
+            <version>10</version>
+        </addon>
+    </runnableAddOns>
+</config>

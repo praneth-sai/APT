@@ -1,0 +1,12 @@
+[10.04.2020 01:41:06] [INFO] External file loaded with 48 fuzzers
+[10.04.2020 01:41:06] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[10.04.2020 01:41:06] [INFO] Database loaded with 53 fuzzers
+[10.04.2020 01:53:39] [INFO] External file loaded with 48 fuzzers
+[10.04.2020 01:53:39] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[10.04.2020 01:53:39] [INFO] Database loaded with 53 fuzzers
+[10.04.2020 02:43:48] [INFO] External file loaded with 48 fuzzers
+[10.04.2020 02:43:48] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[10.04.2020 02:43:48] [INFO] Database loaded with 53 fuzzers
+[10.04.2020 03:07:42] [INFO] External file loaded with 48 fuzzers
+[10.04.2020 03:07:42] [INFO] Adding 5 Zero Fuzzers to the fuzzing Database
+[10.04.2020 03:07:42] [INFO] Database loaded with 53 fuzzers

@@ -1,3 +1,5 @@
+#!/bin/python
+
 import sys
 import webbrowser
 import time
@@ -28,7 +30,7 @@ class Utilities:
         owasp_category = "OWASP"
         attack_category = "Attack"
 	misc_category = "MISC"
-        red_color = '\033[31m'
+	red_color = '\033[31m'
         blue_color = '\033[34m'
         purple_color = '\033[35m'
         green_color = "\033[0;32m"
@@ -82,12 +84,15 @@ class Core:
         def _save_results(self,results,folder_name,file_name):
                 try:
                         # Create a directory for the category e.g reconnaissance or external scanning ...
-                        if not os.path.isdir(folder_name):
-                                os.mkdir(folder_name)
+			now = datetime.now()
+                	date = now.strftime("%m%d%Y")
+
+                        if not os.path.isdir(folder_name+date):
+                                os.mkdir(folder_name+date)
                         
                         #if this an ip address then you need to create a subfolder per IP Address
                         if self.ip_address != '':
-                                ip_folder_name = folder_name + '/'+ self.ip_address
+                                ip_folder_name = folder_name + date + '/'+ self.ip_address
         
                                 if not os.path.isdir(ip_folder_name):
                                         os.mkdir(ip_folder_name)
@@ -95,7 +100,7 @@ class Core:
                                 folder_name = ip_folder_name
                                 
                         # Save the results to a file
-                        file_name = folder_name + '/'+ file_name
+                        file_name = folder_name + date + '/'+ file_name
                         file_to_save = open(file_name,'a+')
                         file_to_save.write(results)
                         self.utilities.print_color("[+] Report saved to: " + file_name,'green')
@@ -103,6 +108,7 @@ class Core:
                         file_to_save.close()
                 except Exception as e:
                         self.utilities.print_color('[!] Error: Cannot save the results to a file!','red')
+                        print(e)
                 
 
         # Description: Open and execute Linux Terminal command
@@ -522,10 +528,10 @@ class Main:
                 	print("Example: DNS and files\n")
                 	print("python apt.py -dns -files\n")
                 	print("Example: Live Hosts Scanning\n")
-                	print("apt.py -c yourclientdomain.com -ip 10.0.0.1/24 -livehosts\n")
+                	print("python apt.py -c yourclientdomain.com -ip 10.0.0.1/24 -livehosts\n")
                 	print("Example: Web Scanning\n")
-                	print("apt.py -c yourclientdomain.com -u www.google.com -ssl -waf -loadbalance -webvulns\n")
-			print("apt.py -c yourclientdomain.com -u www.google.com -p path_to_text_file\n")
+                	print("./apt.py -c yourclientdomain.com -u www.google.com -ssl -waf -loadbalance -webvulns\n")
+			print("./apt.py -c yourclientdomain.com -u www.google.com -p path_to_text_file\n")
                 	#exit the application
                 	exit(0)
 			

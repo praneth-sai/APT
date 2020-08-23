@@ -100,7 +100,11 @@ class Core:
                                 folder_name = ip_folder_name
                                 
                         # Save the results to a file
-                        file_name = folder_name + date + '/'+ file_name
+                        if self.ip_address == '':
+                                file_name = folder_name + date + '/'+ file_name
+                        else:
+                                file_name = folder_name + '/'+ file_name
+
                         file_to_save = open(file_name,'a+')
                         file_to_save.write(results)
                         self.utilities.print_color("[+] Report saved to: " + file_name,'green')
@@ -135,8 +139,11 @@ class Core:
 						print('\n')
                                                 break
                                         if out:
-						if "nikto" in cmd or "javascript" in out or "Javascript" in out:
-                                                	output+=out
+                                                if category_name==self.utilities.web_category:
+						        if "nikto" in cmd or "javascript" in out or "Javascript" in out:
+                                                	        output+=out
+                                                else:
+                                                        output+=out
                                                 print(out.strip())
 
                         output +=  self.utilities.seperator_single_line + '\r\n'
